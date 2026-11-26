@@ -54,12 +54,14 @@ jobs:
       - name: Report differences only
         if: inputs.check_only
         run: |
-          echo "### Differences from the published data" >> "$GITHUB_STEP_SUMMARY"
-          if git diff --quiet -- site/data; then
-            echo "None. This runner reads the PDFs the same way." >> "$GITHUB_STEP_SUMMARY"
-          else
-            git diff --stat -- site/data >> "$GITHUB_STEP_SUMMARY"
-          fi
+          {
+            echo "### Differences from the published data"
+            if git diff --quiet -- site/data; then
+              echo "None. This runner reads the PDFs the same way."
+            else
+              git diff --stat -- site/data
+            fi
+          } | tee -a "$GITHUB_STEP_SUMMARY"
 
       - name: Commit changes
         id: commit
