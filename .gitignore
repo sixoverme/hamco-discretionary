@@ -1,0 +1,6 @@
+# Fake follow-up values for checking how statuses render. Never publish.
+test/
+
+__pycache__/
+*.pyc
+*.new

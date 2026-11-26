@@ -1,0 +1,118 @@
+name: Check county reports and publish
+
+# Runs every morning. Publishes only when the county's reports changed,
+# and only when every fund still reconciles.
+
+on:
+  schedule:
+    - cron: "17 11 * * *"
+  workflow_dispatch:
+    inputs:
+      check_only:
+        description: "Re-read every PDF and report differences, without publishing"
+        type: boolean
+        default: false
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+  issues: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: refresh-and-publish
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    outputs:
+      publish: ${{ steps.commit.outputs.publish }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install pdftotext
+        if: github.event_name != 'push'
+        run: sudo apt-get update -qq && sudo apt-get install -y -qq poppler-utils
+
+      - name: Download reports and rebuild data
+        if: github.event_name != 'push'
+        env:
+          FIRST_FY: ${{ inputs.check_only && '2017' || '' }}
+          FORCE: ${{ inputs.check_only && '1' || '' }}
+        run: scripts/refresh.sh
+
+      - name: List new spending lines
+        if: github.event_name != 'push'
+        run: |
+          git show HEAD:site/data/ledger.csv > "$RUNNER_TEMP/old.csv"
+          python3 -I scripts/new_lines.py "$RUNNER_TEMP/old.csv" site/data/ledger.csv > "$RUNNER_TEMP/new_lines.md"
+          cat "$RUNNER_TEMP/new_lines.md" >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Report differences only
+        if: inputs.check_only
+        run: |
+          echo "### Differences from the published data" >> "$GITHUB_STEP_SUMMARY"
+          if git diff --quiet -- site/data; then
+            echo "None. This runner reads the PDFs the same way." >> "$GITHUB_STEP_SUMMARY"
+          else
+            git diff --stat -- site/data >> "$GITHUB_STEP_SUMMARY"
+          fi
+
+      - name: Commit changes
+        id: commit
+        if: ${{ !inputs.check_only }}
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if [ "${{ github.event_name }}" = "push" ]; then
+            echo "publish=true" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add raw data site/data
+
+          if git diff --cached --quiet; then
+            # GitHub switches off scheduled runs after 60 days without a commit.
+            last=$(git log -1 --format=%ct)
+            if [ $(( $(date +%s) - last )) -gt $(( 50 * 86400 )) ]; then
+              git commit --allow-empty -m "Keep the daily report check switched on"
+              git push
+            fi
+            echo "publish=false" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+
+          asof=$(python3 -I -c "import csv; r = list(csv.DictReader(open('site/data/reports.csv'))); print(max(r, key=lambda x: int(x['fiscal_year']))['as_of'])")
+          git commit -m "County report data as of $asof"
+          git push
+          echo "publish=true" >> "$GITHUB_OUTPUT"
+
+          if [ -s "$RUNNER_TEMP/new_lines.md" ]; then
+            gh issue create --title "New report lines, data as of $asof" --body-file "$RUNNER_TEMP/new_lines.md"
+          fi
+
+  publish:
+    needs: refresh
+    if: needs.refresh.outputs.publish == 'true'
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - uses: actions/configure-pages@v5
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+
+      - id: deploy
+        uses: actions/deploy-pages@v4

@@ -1,0 +1,26 @@
+{
+  "title": "Commissioner Discretionary Spending",
+  "jurisdiction": "Hamilton County, Tennessee",
+  "notice": "Prototype built from the county's published spending reports and its 2025 audit. Not an official county website.",
+  "credit": {
+    "text": "Built by Daniel Lambert",
+    "link_text": "www.sociomagicka.com",
+    "url": "https://sociomagicka.com/"
+  },
+  "more": {
+    "text": "More tools at",
+    "link_text": "chattanoogamapped.com",
+    "url": "https://chattanoogamapped.com/"
+  },
+  "data": {
+    "ledger": "data/ledger.csv",
+    "gifts": "data/gifts.csv",
+    "reports": "data/reports.csv"
+  },
+  "sources": [
+    {
+      "label": "2025 audit of commissioner discretionary funds, FY2022 to FY2024",
+      "url": "https://www.hamiltontn.gov/PDF/Auditing/Travel%20Discretionary%20Fund%20Audit%20Report%20FY2022-FY2024%20Final.pdf"
+    }
+  ]
+}

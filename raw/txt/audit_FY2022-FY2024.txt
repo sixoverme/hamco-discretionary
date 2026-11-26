@@ -1,0 +1,1046 @@
+     WESTON WAMP                                                                                         CHRIS MCCOLLOUGH, CPA, CFE, CCFO
+     COUNTY MAYOR                                                                                                 COUNTY AUDITOR
+
+BOARD OF COMMISSIONERS                                                                                    AUSTIN DURALL, CFE, CGFM, CCFO
+    D.C. (CHIP) BAKER                                                                                             AUDIT MANAGER
+       GREG BECK
+     MIKE CHAUNCEY                                                                                                 AUDIT STAFF
+     JEFF EVERSOLE                                                                                               J.C. CLONTS, CFE
+      JOE GRAHAM
+       LEE HELTON                       HAMILTON COUNTY, TENNESSEE                                         LAUREN COOPER, CPA(INACTIVE)
+                                                                                                              JAMESETTA GRAY, CCFO
+   STEVE HIGHLANDER                                                                                       ROGER KINCER, CGFM, CFE, CCFO
+    WARREN MACKEY                                 INTERNAL AUDIT OFFICE                                         MARICELA MADERA
+      DAVID SHARPE                                                                                            JOHNETTA TRUSS, CCFO
+     GENE-O SHIPLEY
+       KEN SMITH
+
+
+
+
+             To:               Weston Wamp, County Mayor
+                               Hamilton County Board of Commissioners
+                               Audit Committee
+
+             From:             Chris McCollough
+
+             Date:             July 30, 2025
+
+             Subject:          Audit Report of Commissioner Travel Discretionary Funds
+
+
+
+                                                           AUDIT SCOPE
+
+             We audited the cash disbursements made from Commissioner Travel Discretionary Funds for the two fiscal
+             years beginning July 1, 2022, and ending June 30, 2024. The purpose of this audit was to assess compliance
+             with required guidelines and ensure proper use, accounting, and reporting of these disbursements in the
+             county’s financial records.
+
+
+                                                           BACKGROUND
+
+
+             COMMISSIONER DISCRETIONARY SPENDING:
+
+             Since June 15, 2005 (Resolution No. 605-51), the Hamilton County Board of Commissioners is allowed to
+             use any unused travel funds to spend at their discretion within the rules established for expenditure of county
+             funds.
+
+             Each commissioner has the latitude to fund requests made from nonprofits and civic organizations, as
+             defined under Internal Revenue Code section 501(c)(3) or 501(c)(4). To qualify for these funds, written
+             procedures require submitting specific documentation, including an IRS tax exemption letter, current
+             financial statements, a detailed description of the request, and the requested dollar amount. In addition, all
+             expenditures of these funds require an approved resolution from the Hamilton County Board of
+             Commissioners.
+
+
+
+
+                     455 N. Highland Park Avenue • Chattanooga, TN 37404 • Phone (423) 209-6200 • Fax (423) 209-6201
+                                               AUDIT RISKS
+
+We considered the following risks:
+
+       that funds donated may not be properly supported and in compliance with state law;
+       that funds donated may not have been deposited into the payee’s bank account;
+       that funds donated may not have been used for the purpose intended; and
+       that funds may not have been expended according to county commission policy.
+
+
+                                        AUDIT OBJECTIVES
+
+The objectives of our audit procedures were:
+
+       to ensure that monies disbursed to charitable, civic, and educational organizations of Hamilton
+        County were properly approved, supported, documented, and in compliance with TCA Code 5-9-
+        109 (See Exhibit VIII - Page 16);
+
+       to determine that said funds were used by the named organizations in furtherance of their
+        nonprofit purpose, benefiting the general welfare of the residents of the county;
+
+       to determine that the disbursements were properly authorized by resolution, accounted for in the
+        County General Fund, and reported on the county’s website; and
+
+       to verify that the disbursements are in compliance with county policy and IRS regulations.
+
+
+                                       AUDIT PROCEDURES
+
+Our audit of travel funds included the following procedures:
+    confirmation of the required budget request;
+    IRS 501(c)3 or 501(c)4 Letter, as applicable;
+    proper supporting documentation using Hamilton County’s CentralSquare software and/or
+       provided by the recipient;
+    agreement to resolution;
+    examination of the county’s cancelled check;
+    examination of the nonprofit’s bank statement confirming deposits into their account;
+    agreement to the county’s financial records and website post of ‘spending report’; and
+    review of expenditures for compliance with policy.
+
+Our test work included:
+     Eighty-seven (87) disbursements made to fifty-eight (58) organizations totaling $156,691.81
+         (See Exhibit I – Pages 7-9); and
+     reviewing additional travel expenditures.
+
+
+
+
+                                                                                                           2
+                                AUDITOR’S OPINION & FINDINGS
+
+In our opinion:
+
+       Donations made from commissioner discretionary funds were not completely verified as having
+        been used by the organization for the purpose intended.
+       Additionally, reimbursements for commission expenditures were not always made in accordance
+        with county policy.
+
+Our examination identified certain violations and areas that require improvement. These exceptions and our
+recommendations are as follows:
+
+Documentation
+
+Observation – Despite several requests, the Kingship Chess Group failed to provide us with the necessary
+information to verify that the donation complied with county and state guidelines. The Kingship Chess
+Group received a donation of $1,250.00.
+
+Recommendation – We recommend that no further donations be made to these organizations until we
+receive the requested documentation.
+
+
+Unqualified Reimbursements
+
+Finding 1 – Historically, the county provided each commissioner with an office to address the concerns
+and needs of their respective constituents. Presently, with limited space, commissioners have the option of
+leasing an office or using a home office to check emails and make calls. According to the county
+commission expense allowance policy, commissioners are reimbursed in accordance with the regulations
+published by the Internal Revenue Service (See Exhibit II – Page 10). We found five (5) commissioners
+who receive mileage reimbursement for driving to and from the weekly county commission meeting. The
+issue is whether commissioners are allowed to get reimbursement for travel from their homes to the weekly
+commission meeting on Wednesday.
+
+After conducting research and engaging in extensive discussions with external CPAs, CTAS, other
+government agencies, and an IRS agent, we have compiled the following information as the basis for our
+recommendation.
+
+IRS Publication 587, Business Use of Your Home, provides guidance on whether the home office qualifies
+for a deduction. The following information is found on page three(3) of the publication.
+
+It states:
+“To qualify to deduct expenses for business use of your home, you must use part of your home:
+
+       Exclusively and regularly as your principal place of business;
+       Exclusively and regularly as a place where you meet or deal with patients, clients, or customers in
+        the normal course of your trade or business;
+       In the case of a separate structure that is not attached to your home, in connection with your trade
+        or business;
+       On a regular basis for certain storage use;
+       For rental use; or
+
+
+
+
+                                                                                                          3
+       As a daycare facility
+
+To determine whether your home is your principal place of business, you must consider:
+     The relative importance of the activities performed at each place where you conduct business, and
+     The amount of time spent at each place where you conduct business.
+
+Your home office will qualify as your principal place of business if you meet the following requirements.
+    You use it exclusively and regularly for administrative or management activities of your trade or
+       business.
+    You have no other fixed location where you conduct substantial administrative or management
+       activities of your trade or business.”
+
+The following chart from page four(4) of publication 587 is used to determine if you can deduct business
+use of the home expenses.
+
+
+
+
+In the above chart, the second box question asked, "Are you using the part of your home as an employee?
+The answer to that question is "yes." Therefore, no deduction is allowed as a home office expense.
+
+The Hamilton County Government Employee Handbook, page 69, defines who constitutes an employee of
+Hamilton County. According to the handbook, the County Commissioners are employees of the County
+Government. Additionally, Internal Revenue Code section 3401(c) indicates that an “officer, employee, or
+elected official” of government is an employee for income tax withholding purposes.
+
+
+
+
+                                                                                                       4
+Per IRS Publication 463 (2023) Chapter 4 (See Exhibit III – Page 11), transportation expenses include the
+ordinary and necessary costs of all of the following.
+
+        • Getting from one workplace to another in the course of your business or profession when you are
+        traveling within the city or general area that is your tax home. Tax home is defined in Chapter 1
+        (See Exhibit IV – Page 12)
+
+        • Visiting clients or customers.
+
+        • Going to a business meeting away from your regular workplace.
+
+        • Getting from your home to a temporary workplace when you have one or more regular places of
+        work. These temporary workplaces can be either within the area of your tax home or outside that
+        area.
+
+Additionally, if you have no regular place of work but ordinarily work in the metropolitan area where you
+live, you can deduct daily transportation costs between home and a temporary work site outside that
+metropolitan area. Generally, a metropolitan area includes areas within the city limits, and the suburbs are
+considered part of that area. You can’t deduct daily transportation costs between your home and temporary
+work sites within your metropolitan area. These are non-deductible commuting expenses (See Exhibit V –
+Page 13).
+
+At the courthouse, the 4th floor Commission office and Commission Room (main office station) are the
+primary locations where the commissioner's deliberations (whether in a commission meeting or a
+committee meeting) and decisions are made. The alternative workplace arrangements for the home office
+could be viewed as a designated work station, given the limited courthouse office space.
+
+Therefore, travel reimbursement from the home office to the weekly Wednesday commission meeting,
+which is held at the main place of business of the commission, would not be deductible or reimbursed by
+the county. If a commissioner has a meeting with a constituent before the commission meeting at a location
+other than the county house, then mileage would be reimbursed from the home office to the meeting
+location.
+
+Commissioners received $3,173.68 in mileage reimbursements for driving from their homes to the weekly
+commission meeting at the courthouse in fiscal year 2023 and $3,667.59 in fiscal year 2024.
+
+Recommendation – We recommend that the commissioners repay the reimbursements they received for
+ineligible mileage deductions in calendar year 2025, or the total amount can be included in the
+commissioners' W-2 as taxable income. The accounting department must know if the commissioners
+want to pay back the ineligible mileage reimbursement or have it added to their W-2 as income, by
+August 31, 2025. Additionally, we recommend that the commission update the discretionary travel
+policy to incorporate the guidelines outlined in the State of Tennessee Department of Finance and
+Administration's Policy 8 – Comprehensive Travel Regulations, specifically sections 10 to 14. (See
+Exhibit IX – Page 18-20).
+
+
+Finding 2 – Per commission policy, reimbursements are only qualified when the expense is directly
+related to a commissioner’s work (See Exhibit VI – Page 14). Additionally, the commission policy states
+that the commission chair is responsible for approving each commissioner’s expenses (See Exhibit VII –
+Page 15). During our audit, we discovered that a commissioner was reimbursed for several
+expenditures he made directly for a non-profit event totaling $1,419.29. The commission chair
+did not approve these reimbursements and many other expenditures. Additionally, the accounting
+department processed the payment without questioning whether the expense was eligible for
+reimbursement.
+                                                                                                          5
+Refer to the table below for a breakdown of expenditures made on behalf of the non-profit.
+
+
+            Expenditure                                 Purchase           Expenditure
+               Date                Vendor              Description          Amount
+
+
+                10/19/2023      Walgreens              Photofinishing            $99.38
+
+
+                10/20/2023      Hobby Lobby            Custom frame                91.77
+                                                       Two Rooms &
+                10/21/2023      Marriott               Valet Parking           1,098.06
+
+
+                10/22/2023      Cracker Barrel           Breakfest                 60.08
+
+
+                12/10/2023      Unknown                 Event DvDs                 70.00
+
+                                                                Total         $1,419.29
+
+Recommendation – We recommend that expenditures and reimbursements be made only in accordance
+with commission policy, and that the commission chair sign off on all expenses. The accounting department
+must verify whether expenses align with policy. On July 16, 2025, Resolution 725-13 was approved as a
+one-time deviation of the Travel Discretionary Expense Allow Policy for the transactions above.
+
+If you have any questions regarding this report or would like further information, please call me at 209-
+6212 or Austin Durall at 209-6211.
+
+
+                                                                        Staff Assigned to Audit
+                                                                        J.C. Clonts, Staff Auditor
+Chris McCollough, County Auditor
+                                                                        Austin Durall, Audit Manager
+
+
+
+cc:     Claire McVay, Chief of Staff
+        David Roddy - COO
+        Lee Brouner, CFO
+        Vonda Patrick, Deputy CFO
+        Patricia Mitchell, Legislative Administrator
+
+
+
+
+                                                                                                       6
+Hamilton County, Tennessee                                                                                                                            EXHIBIT I
+Schedule of Commissioners' Discretionary Spending
+Two fiscal years beginning July 1, 2022 and ending June 30, 2024
+
+                       Organization                                               Funds To Be Used For                         Date      Resolution    Amount
+            Soddy Daisy Food Bank Incorporated                                 Assist with operational expense                06/07/23     623-15          1,500
+              Middle Valley Youth Association                                     Assist with programming                     06/21/23     623-44          1,500
+                  Soddy Daisy Trojan Fund                                         Assist with scholarships                    06/21/23    623-43           2,500
+              Mountain Education Foundation                                       Assist with programming                     06/07/23     623-13          3,000
+            Mowbray Volunteer Fire Department                           Assist with purchase of Swiftwater equipment          06/07/23     623-11          3,000
+             Walden's Ridge Emergency Service                                 Assist with equipment upgrades                  06/07/23     623-12          3,000
+    Charles H. Coolidge National Medal of Honor Heritage            Purchase of a table for Celebration of Valor luncheon     06/21/23     623-64          1,500
+                    Hixson High School                                          Assist with athletic programs                 06/21/23    623-65           3,000
+              Prison Prevention Ministries, Inc.                   Assist with InZone programming for underserved kids        06/21/23     623-66          2,250
+                   Kingship Chess Group                                           Assist with programming                     08/17/22     822-65          1,250
+          Placing Emphasis Around Kids dba PEAK                            Assist with programming and services               08/17/22     822-67          1,250
+                   Reach One Teach One                                     Assist with programming and services               08/17/22     822-68          1,000
+                     Tyner High School                                Defray the cost of Football Championship Rings          01/04/23     123-8           1,000
+                    Brainerd High School                                     Assist with purchase of lawnmower                04/05/23     423-22          1,500
+              United Community Action Alliance                        Defray the cost of materials for Seniors Night Out      04/05/23     423-4           3,000
+                     Tyner High School                                Defray the cost of Football Championship Rings          01/04/23     123-8           1,000
+          The Hamilton County Schools Foundation                                  Assist with programming                     06/07/23     623-8           5,053
+    Charles H. Coolidge National Medal of Honor Heritage            Purchase of a table for Celebration of Valor luncheon     08/17/22     822-66          1,500
+                 East Hamilton High School                                Assist with purchase of sports equipment            06/21/23     623-41          3,961
+                     City of East Ridge                                  Assist with Camp Jordan nature trail project         05/17/23     523-26          3,000
+                East Ridge Needy Child Fund                                       Assist with programming                     06/07/23     623-6           2,500
+                     Tyner High School                                Defray the cost of Football Championship Rings          01/04/23     123-8           1,000
+             Harrison Bay Future Ready Center                      Assist with scholarships for National Skills USA Contest   06/07/23     623-7           2,000
+                Snow Hill Recreation League                             Assist with the Boys and Girls All Star Team          06/21/23     623-42          2,000
+             Harrison Bay Future Ready Center                      Assist with scholarships for National Skills USA Contest   06/07/23     623-9           2,000
+                Snow Hill Recreation League                             Assist with the Boys and Girls All Star Team          06/07/23     623-10          2,000
+                Ooltewah Youth Association                              Assist with the Boys and Girls All Star Team          06/21/23     623-40          2,000
+          East Lake Neighborhood Association Inc.                              Assist with community projects                 06/21/23     623-63          1,355
+                 Henry Bowles Athletic Fund                                       Assist with scholarships                    06/21/23    623-58           1,355
+              Lookout Valley Lions Club Charity                                Assist with community projects                 06/21/23     623-61          1,355
+          Lookout Valley Neighborhood Association                                 To update IT equipment                      06/21/23     623-60          1,355
+                 Net Resource Foundation                                       Assist with community projects                 06/21/23     623-62          1,355
+
+                                                                                                                                                                   7
+Hamilton County, Tennessee                                                                                                                           EXHIBIT I
+Schedule of Commissioners' Discretionary Spending
+Two fiscal years beginning July 1, 2022 and ending June 30, 2024
+
+                       Organization                                             Funds To Be Used For                          Date      Resolution    Amount
+                Keep Soddy Daisy Beautiful                                  Assist with a community project                  09/20/23     923-24          1,200
+                  Sale Creek High School                            Assist with purchase of softball team's uniforms         09/20/23     923-23          1,500
+                  Sale Creek High School                                          ROTC competitions                          11/01/23    1123-6           1,000
+                  Sale Creek High School                            Purchase Girl's Volleyball Championship Rings            01/03/24     124-6           2,000
+             Harrison Recreational Booste Club                             Assist with facility improvements                 02/07/24     224-9           1,000
+                  Sale Creek High School                                  Assist with purchase of calculators                05/15/24     524-21          1,000
+                  Soddy Daisy High School                             Assist with purchase of paint for bleachers            05/15/24     524-22          1,000
+         Soddy Daisy Vietnam Veterans Foundation                         Assist with supplies for local veterans             05/15/24     524-24          1,000
+     The Soddy Daisy & Montlake Historical Association                     Assist with building maintenance                  05/15/24     524-23          1,000
+                  Soddy Daisy Food Bank                                     Assist with operational expense                  06/05/24     624-38           500
+              Mountain Education Foundation                                     Assist with programming                      05/06/23     1223-5          5,000
+     Signal Mountain Middle-High School Sports Boosters                         Assist with programming                      06/05/24     624-3           6,000
+             Walden's Ridge Emergency Service                      Assist with purchase of Thermal Imaging Cameras           06/05/24     624-35          3,000
+                    Hixson High School                                 Hixson High School ROTC competitions                  11/01/23    1123-6           1,000
+                     Friends of Hixson                                          Assist with Tree Lighting                    11/15/23    1123-12          1,000
+              United Community Action Alliance                                Assist with senior programs                    08/02/23     823-9           3,500
+                  Sale Creek High School                      Assist with purchase of Girl's Volleyball Championship Rings   01/03/24     124-6           1,000
+                   Red Bank High School                                Assist with purchase of athletic equipment            06/05/24     624-37         10,896
+                East Hamilton Middle School                                    Assist with Cheer program                     09/20/23    923-22           1,000
+                 East Hamilton High School                                East Hamilton ROTC competitions                    11/01/23     1123-6          1,000
+                 Apison Elementary School                                     Assist with reading program                    12/20/23    1223-18          1,000
+             Harrison Recreational Booste Club                             Assist with facility improvements                 02/07/24     224-7           1,000
+             East Hamilton Middle High School                      Assist with programming and purchase of supplies          06/26/24     624-36          3,250
+                 East Ridge Animal Shelter                                  Assist with purchase of supplies                 06/26/24     624-39          2,000
+               East Ridge Needy Child Fund                                  Assist with community projects                   06/26/24    624-40           1,000
+            East Ridge United Methodist Church                              Assist with community projects                   06/26/24     624-41          1,000
+                   Ooltewah High School                                           ROTC competitions                          11/01/23    1123-6           2,000
+                    Central High School                                           ROTC competitions                          11/01/23    1123-6           2,000
+                  Sale Creek High School                      Assist with purchase of Girl's Volleyball Championship Rings   01/03/24     124-6           1,000
+             Harrison Recreational Booste Club                             Assist with facility improvements                 02/07/24     224-8           1,000
+                   Brown Middle School                                         Assist the Westling Team                      06/26/24    624-59            800
+                    Central High School                                        Assist with Westling Team                     06/26/24     624-60           800
+
+                                                                                                                                                                  8
+Hamilton County, Tennessee                                                                                                                                  EXHIBIT I
+Schedule of Commissioners' Discretionary Spending
+Two fiscal years beginning July 1, 2022 and ending June 30, 2024
+
+                       Organization                                              Funds To Be Used For                            Date      Resolution        Amount
+                        S.T.A.R.S.                                     Assist with purchase of Sucuba Air Tanks                 06/26/24    624-56                 800
+                Harrison Elementary School                                      Assist with programming                         06/26/24     624-57                800
+             Harrison Recreational Booste Club                              Assist with facility improvements                   06/26/24     624-65                800
+           Highway 58 Volunteer Fire Department                        Assist with purchase of MSA Gas Monitor                  06/26/24     624-55                800
+                   Hunter Middle School                                          Assist Wrestling Team                          06/26/24    624-58                 800
+                   Ooltewah High School                                          Assist Wrestling Team                          06/26/24    624-61                 800
+                Snow Hill Elementary School                                     Assist with programming                         06/26/24     624-62                800
+             Snow Hill Recreation League, Inc.                                  Assist with programming                         06/26/24     624-64                800
+             Wallace Smith Elementary School                                    Assist with programming                         06/26/24     624-63                800
+           Highway 58 Volunteer Fire Department                     Assist with bunk room and restroom at Station 2             06/26/24     624-43              2,000
+                   Ooltewah High School                       Assist with purchase of athletic supplies for Girl's Basketball   06/26/24     624-42              2,000
+                Ooltewah Youth Association                                      Assist with programming                         06/26/24    624-45               1,000
+          Tri-Community Volunteer Fire Department                     Assist with purchase of rescue four-wheeler               06/26/24     624-44              2,000
+               Alton Park Development Corp                                  Assist with building maintenance                    06/21/23     623-59              1,355
+               Alton Park Development Corp                                  Assist with building maintenance                    06/26/24     624-51              1,225
+       Chattanooga Charter School of Excellence High                            Assist with sporting needs                      06/26/24     624-50              1,000
+            East Lake Neighborhood Association                           Assist with community outreach needs                   06/26/24     624-47              1,000
+                      La Paz De Dios                                          Assist with community needs                       06/26/24    624-53               1,200
+             Lookout Valley Middle High School                           Assist the Youth in Government Group                   06/26/24     624-46              1,000
+             Lookout Valley Lions Club Charity                          Assist with community sign maintenance                  06/26/24     624-49              1,000
+          Lookout Valley Neighborhood Association                        Assist with community outreach needs                   06/26/24     624-48              1,000
+             Lookout Valley Elementary School                                  Assist the Green Prix Team                       06/26/24     624-54              1,000
+                 Net Resource Foundation                                     Assist with community projects                     06/26/24     624-52              6,225
+
+                                                                                                                                                        $      156,692
+
+
+
+
+                                                                                                                                                                         9
+                                                                          Exhibit II
+
+     2. The County Commission shall maintain an office staff of the size and number deemed by
+        the Commission to be sufficient to ensure that each commissioner can properly address
+        the concerns and needs of his/her respective constituents (by the receipt of mail,
+        telephone messages, and the scheduling of appointments). All Commission-related work
+        required to be done by a commissioner shall be performed by the staff of the Commission
+        Office, as coordinated by the Legislative Administrator for the County Commission,
+        except where a commissioner has other non-County paid staff available. No
+        commissioner shall have any additional support staff paid by County Government. All
+        office personnel of the County Commission shall be afforded the same rights and
+        privileges of employment as all other County employees and are not to be expected to
+        give of their personal time, and/or assets, for the benefit of either individual
+        commissioners or the Commission as a whole.
+
+
+C. SUPPORTIVE EQUIPMENT
+
+     1. The Office of the County Commission will provide, as funding is available and approved,
+        necessary and reasonable equipment for the Commission Office to assist the
+        commissioners in the performance of their duties as elected officials, including cellular
+        telephones, computer laptops/tablets, and copy machines. The County will not be
+        responsible for providing such equipment for additional office space.
+
+     2. No County vehicle is to be used by individual commissioners.
+
+     3. From time to time, it will be necessary for individual commissioners to use their personal
+        vehicle in the performance of County business. The County will reimburse such
+        commissioner for the use of their personal vehicle on County business in accordance with
+        regulations published by the Internal Revenue Service.
+
+     4. Each County commissioner shall be allowed a maximum of One Hundred Dollars ($ 100)
+        per month in cellular telephone expenses. The Chair and Vice-Chair shall be allowed One
+        Hundred Twenty Five Dollars ($125) per month during the year of their term. The
+        cellular telephone expenses will be paid by the County through the operating budget of
+        the Office of the County Commission and will not be charged against each respective
+        commissioner's Expense Allowance.
+
+D. TRAVEL
+
+     1. All out-of-town travel by individual commissioners, for which the County is either to
+        reimburse the commissioner or advance the expenses thereof, shall be approved by the
+        Commission Chair, or Chair Pro Tempore in the absence of the Chair, at least ten (10)
+        days prior to the requested trip. In the event a requested trip is disapproved by the Chair
+        or Chair Pro Tempore, a written explanation of said disapproval shall be given, and the
+        requesting commissioner may submit his/her request by resolution to the full
+        Commission for a decision. The Legislative Administrator for the Commission, or other
+
+
+
+                   Source: Resolution #1118-14 - Expense Allowance                          10
+                   Policy for the Hamilton County Commission
+$25 limit. You can deduct no more than $25 for business
+gifts you give directly or indirectly to each person during
+your tax year. A gift to a company that is intended for the
+                                                                    m                                    Exhibit III
+                                                                            If you are entitled to a reimbursement from your
+                                                                            employer but you don't claim it, you can't claim a
+                                                                            deduction for the expenses to which that un­
+eventual personal use or benefit of a particular person or a        claimed reimbursement applies. This type of deduction is
+limited class of people will be considered an indirect gift to      considered a miscellaneous deduction that is no longer al­
+that particular person or to the individuals within that class      lowable due to the suspension of miscellaneous itemized
+of people who receive the gift.                                     deductions subject to the 2% floor under section 67(a).
+    If you give a gift to a member of a customer's family, the
+gift is generally considered to be an indirect gift to the cus­
+tomer. This rule doesn't apply if you have a bona fide, in­
+dependent business connection with that family member
+and the gift isn't intended for the customer's eventual use.
+    If you and your spouse both give gifts, both of you are
+treated as one taxpayer. It doesn't matter whether you
+                                                                    4.
+have separate businesses, are separately employed, or
+whether each of you has an independent connection with
+the recipient. If a partnership gives gifts, the partnership        Transportation
+and the partners are treated as one taxpayer.
+                                                                    This chapter discusses expenses you can deduct for busi­
+    Example. You sell products to a local company. You              ness transportation when you aren't traveling away from
+and your spouse gave the local company three gourmet                home, as defined in chapter 1. These expenses include
+gift baskets to thank them for their business. You and your         the cost of transportation by air, rail, bus, taxi, etc., and the
+spouse paid $80 for each gift basket, or $240 total. Three          cost of driving and maintaining your car.
+of the local company's executives took the gift baskets             Transportation expenses include the ordinary and neces­
+home for their families' use. You and your spouse have no           sary costs of all of the following.
+independent business relationship with any of the execu­
+tives' other family members. You and your spouse can de­              • Getting from one workplace to another in the course of
+duct a total of $75 ($25 limit x 3) for the gift baskets.               your business or profession when you are traveling
+                                                                        within the city or general area that is your tax home.
+Incidental costs. Incidental costs, such as engraving on                Tax home is defined in chapter 1.
+jewelry, or packaging, insuring, and mailing, are generally           • Visiting clients or customers.
+not included in determining the cost of a gift for purposes
+of the $25 limit.                                                     • Going to a business meeting away from your regular
+   A cost is incidental only if it doesn't add substantial              workplace.
+value to the gift. For example, the cost of gift wrapping is          • Getting from your home to a temporary workplace
+an incidental cost. However, the purchase of an ornamen­                 when you have one or more regular places of work.
+tal basket for packaging fruit isn't an incidental cost if the           These temporary workplaces can be either within the
+value of the basket is substantial compared to the value of              area of your tax home or outside that area.
+the fruit.
+                                                                    Transportation expenses don't include expenses you have
+Exceptions. The following items aren't considered gifts             while traveling away from home overnight. Those expen­
+for purposes of the $25 limit.                                      ses are travel expenses discussed in chapter 1. However,
+                                                                    if you use your car while traveling away from home over­
+ 1. An item that costs $4 or less and:                              night, use the rules in this chapter to figure your car ex­
+     a. Has your name clearly and permanently imprinted             pense deduction. See Car Expenses, later.
+        on the gift, and                                            Daily transportation expenses you incur while traveling
+     b. Is one of a number of identical items you widely            from home to one or more regular places of business are
+        distribute. Examples include pens, desk sets, and           generally nondeductible commuting expenses. However,
+        plastic bags and cases.                                     there may be exceptions to this general rule. You can de­
+                                                                    duct daily transportation expenses incurred going be­
+ 2. Signs, display racks, or other promotional material to          tween your residence and a temporary work station out­
+    be used on the business premises of the recipient.              side the metropolitan area where you live. Also, daily
+                                                                    transportation expenses can be deducted if (1) you have
+                                                                    one or more regular work locations away from your resi­
+Gift or entertainment. Any item that might be consid­               dence; or (2) your residence is your principal place of
+ered either a gift or entertainment will generally be consid­       business and you incur expenses going between the resi­
+ered entertainment. However, if you give a customer pack­           dence and another work location in the same trade or
+aged food or beverages you intend the customer to use at            business, regardless of whether the work is temporary or
+a later date, treat it as a gift.                                   permanent and regardless of the distance.
+
+18                                                Chapter 4       Transportation                          Publication 463 (2023)
+
+                                                            Source: IRS Publication 463                                      11
+                                                                                                  Exhibit IV
+a whole day or from dusk to dawn as long as your relief            • Whether your income from each place is significant or
+from duty is long enough to get necessary sleep or rest.              insignificant.
+
+   Example 1. You are a railroad conductor. You leave                Example. You live in Cincinnati where you have a sea-
+your home terminal on a regularly scheduled round-trip            sonal job for 8 months each year and earn $40,000. You
+run between two cities and return home 16 hours later.            work the other 4 months in Miami, also at a seasonal job,
+During the run, you have 6 hours off at your turnaround           and earn $15,000. Cincinnati is your main place of work
+point where you eat two meals and rent a hotel room to            because you spend most of your time there and earn most
+get necessary sleep before starting the return trip. You are      of your income there.
+considered to be away from home.
+                                                                  No main place of business or work. You may have a
+   Example 2. You are a truck driver. You leave your ter-         tax home even if you don’t have a regular or main place of
+minal and return to it later the same day. You get an hour        work. Your tax home may be the home where you regu-
+off at your turnaround point to eat. Because you aren’t off       larly live.
+to get necessary sleep and the brief time off isn’t an ade-
+                                                                      Factors used to determine tax home. If you don’t
+quate rest period, you aren’t traveling away from home.
+                                                                  have a regular or main place of business or work, use the
+Members of the Armed Forces. If you are a member of               following three factors to determine where your tax home
+the U.S. Armed Forces on a permanent duty assignment              is.
+overseas, you aren’t traveling away from home. You can’t           1. You perform part of your business in the area of your
+deduct your expenses for meals and lodging. You can’t                 main home and use that home for lodging while doing
+deduct these expenses even if you have to maintain a                  business in the area.
+home in the United States for your family members who
+aren’t allowed to accompany you overseas. If you are               2. You have living expenses at your main home that you
+transferred from one permanent duty station to another,               duplicate because your business requires you to be
+you may have deductible moving expenses, which are ex-                away from that home.
+plained in Pub. 3, Armed Forces’ Tax Guide.                        3. You haven’t abandoned the area in which both your
+   A naval officer assigned to permanent duty aboard a                historical place of lodging and your claimed main
+ship that has regular eating and living facilities has a tax          home are located; you have a member or members of
+home (explained next) aboard the ship for travel expense              your family living at your main home; or you often use
+purposes.                                                             that home for lodging.
+                                                                     If you satisfy all three factors, your tax home is the
+Tax Home                                                          home where you regularly live. If you satisfy only two fac-
+To determine whether you are traveling away from home,            tors, you may have a tax home depending on all the facts
+you must first determine the location of your tax home.           and circumstances. If you satisfy only one factor, you are
+                                                                  an itinerant; your tax home is wherever you work and you
+   Generally, your tax home is your regular place of busi-        can’t deduct travel expenses.
+ness or post of duty, regardless of where you maintain
+your family home. It includes the entire city or general area         Example 1. You are single and live in Boston in an
+in which your business or work is located.                        apartment you rent. You have worked for your employer in
+                                                                  Boston for a number of years. Your employer enrolls you in
+   If you have more than one regular place of business,           a 12-month executive training program. You don’t expect
+your tax home is your main place of business. See Main            to return to work in Boston after you complete your train-
+place of business or work, later.                                 ing.
+   If you don’t have a regular or a main place of business            During your training, you don’t do any work in Boston.
+because of the nature of your work, then your tax home            Instead, you receive classroom and on-the-job training
+may be the place where you regularly live. See No main            throughout the United States. You keep your apartment in
+place of business or work, later.                                 Boston and return to it frequently. You use your apartment
+                                                                  to conduct your personal business. You also keep up your
+   If you don’t have a regular or main place of business or       community contacts in Boston. When you complete your
+post of duty and there is no place where you regularly live,      training, you are transferred to Los Angeles.
+you are considered an itinerant (a transient) and your tax            You don’t satisfy factor (1) because you didn’t work in
+home is wherever you work. As an itinerant, you can’t             Boston. You satisfy factor (2) because you had duplicate
+claim a travel expense deduction because you are never            living expenses. You also satisfy factor (3) because you
+considered to be traveling away from home.                        didn’t abandon your apartment in Boston as your main
+                                                                  home, you kept your community contacts, and you fre-
+Main place of business or work. If you have more than             quently returned to live in your apartment. Therefore, you
+one place of work, consider the following when determin-          have a tax home in Boston.
+ing which one is your main place of business or work.
+    • The total time you ordinarily spend in each place.             Example 2. You are an outside salesperson with a
+                                                                  sales territory covering several states. Your employer’s
+    • The level of your business activity in each place.
+4                                                     Chapter 1 Travel                             Publication 463 (2024)
+                                                      Source: IRS Publication 463                             12
+                                                                                                  Exhibit V
+1 year, that employment will be treated as temporary (un­         Commuting expenses. You can't deduct the costs of
+less there are facts and circumstances that would indicate        taking a bus, trolley, subway, or taxi, or of driving a car be­
+otherwise) until your expectation changes. It won't be trea­      tween your home and your main or regular place of work.
+ted as temporary after the date you determine it will last        These costs are personal commuting expenses. You can't
+more than 1 year.                                                 deduct commuting expenses no matter how far your home
+   If the temporary work location is beyond the general           is from your regular place of work. You can't deduct com­
+area of your regular place of work and you stay overnight,        muting expenses even if you work during the commuting
+you are traveling away from home. You may have deducti­           trip.
+ble travel expenses, as discussed in chapter 1.
+                                                                      Example. You sometimes use your cell phone to make
+No regular place of work. If you have no regular place            business calls while commuting to and from work. Some­
+of work but ordinarily work in the metropolitan area where        times business associates ride with you to and from work,
+you live, you can deduct daily transportation costs be­           and you have a business discussion in the car. These ac­
+tween home and a temporary work site outside that metro­          tivities don't change the trip from personal to business.
+politan area.                                                     You can't deduct your commuting expenses.
+   Generally, a metropolitan area includes the area within
+                                                                     Parking fees. Fees you pay to park your car at your
+the city limits and the suburbs that are considered part of
+                                                                  place of business are nondeductible commuting expen­
+that metropolitan area.
+                                                                  ses. You can, however, deduct business-related parking
+   You can't deduct daily transportation costs between
+                                                                  fees when visiting a customer or client.
+your home and temporary work sites within your metropol­
+itan area. These are nondeductible commuting expenses.               Advertising display on car. Putting display material
+                                                                  that advertises your business on your car doesn't change
+Two places of work. If you work at two places in 1 day,           the use of your car from personal use to business use. If
+whether or not for the same employer, you can deduct the          you use this car for commuting or other personal uses,
+expense of getting from one workplace to the other. How­          you still can't deduct your expenses for those uses.
+ever, if for some personal reason you don't go directly
+from one location to the other, you can't deduct more than           Car pools. You can't deduct the cost of using your car
+the amount it would have cost you to go directly from the         in a nonprofit car pool. Don't include payments you re­
+first location to the second.                                     ceive from the passengers in your income. These pay­
+    Transportation expenses you have in going between             ments are considered reimbursements of your expenses.
+home and a part-time job on a day off from your main job          However, if you operate a car pool for a profit, you must in­
+are commuting expenses. You can't deduct them.                    clude payments from passengers in your income. You can
+                                                                  then deduct your car expenses (using the rules in this
+Armed Forces reservists. A meeting of an Armed                    publication).
+Forces reserve unit is a second place of business if the
+                                                                     Hauling tools or instruments. Hauling tools or instru­
+meeting is held on a day on which you work at your regular
+                                                                  ments in your car while commuting to and from work
+job. You can deduct the expense of getting from one work­
+                                                                  doesn't make your car expenses deductible. However, you
+place to the other as just discussed under Two places of
+                                                                  can deduct any additional costs you have for hauling tools
+work.
+                                                                  or instruments (such as for renting a trailer you tow with
+   You usually can't deduct the expense if the reserve
+                                                                  your car).
+meeting is held on a day on which you don't work at your
+regular job. In this case, your transportation is generally a        Union members' trips from a union hall. If you get
+nondeductible commuting expense. However, you can de­             your work assignments at a union hall and then go to your
+duct your transportation expenses if the location of the          place of work, the costs of getting from the union hall to
+meeting is temporary and you have one or more regular             your place of work are nondeductible commuting expen­
+places of work.                                                   ses. Although you need the union to get your work assign­
+   If you ordinarily work in a particular metropolitan area       ments, you are employed where you work, not where the
+but not at any specific location and the reserve meeting is       union hall is located.
+held at a temporary location outside that metropolitan
+area, you can deduct your transportation expenses.                Office in the home. If you have an office in your home
+   If you travel away from home overnight to attend a             that qualifies as a principal place of business, you can de­
+guard or reserve meeting, you can deduct your travel ex­          duct your daily transportation costs between your home
+penses. These expenses are discussed in chapter 1.                and another work location in the same trade or business.
+   If you travel more than 100 miles away from home in            (See Pub. 587, Business Use of Your Home, for informa­
+connection with your performance of services as a mem­            tion on determining if your home office qualifies as a prin­
+ber of the reserves, you may be able to deduct some of            cipal place of business.)
+your reserve-related travel costs as an adjustment to
+gross income rather than as an itemized deduction. For            Examples of deductible transportation. The following
+more information, see Armed Forces Reservists Traveling           examples show when you can deduct transportation ex­
+More Than 100 Miles From Home under Special Rules in              penses based on the location of your work and your
+chapter 6.                                                        home.
+20                                               Chapter 4      Transportation                        Publication 463 (2023)
+
+                                                       Source: IRS Publication 463                                       13
+                                                                                           Exhibit VI
+
+STATE OF TENNESSEE
+   Hamilton County                                                                         March 4, 2020
+                                                                                       Date (Month, Day, Year)
+
+
+
+            Hamilton County Board of Commissioners
+                                  RESOLUTION
+                                     No.           320-4
+
+
+
+    A RESOLUTION AMENDING THE PROTOCOL (EXPENSE ALLOWANCE
+    POLICY) FOR THE MEMBERS OF THE HAMILTON COUNTY BOARD OF
+    COMMISSIONERS AS PREVIOUSLY AMENDED BY RESOLUTION 220-4.
+
+    WHEREAS, the County Board of Commissioners amended the protocol (Expense
+             Allowance Policy) for members of the Board of Commissioners via Resolution
+             220-4 by modifying Section A (3); and
+
+    WHEREAS, this amendment discontinued the carryover to the following fiscal year of each
+             Commissioner's unspent annual expense allowance funds (currently $12,500)
+             resulting in the discontinuance of using said carryover funds for discretionary
+             purposes; and
+
+    WHEREAS, as amended, the current policy in Section A (1) does not allow Commissioner
+             expense allowance funds to be used for discretionary purposes; and
+
+    WHEREAS, it is now the opinion of this legislative body that to broaden the use of
+             Commissioner expense allowance funds to include discretionary purposes is in
+             the best interest of the citizens of Hamilton County.
+
+    NOW, THEREFORE, BE IT RESOLVED BY THIS COUNTY LEGISLATIVE BODY
+    IN SESSION ASSEMBLED:
+
+                 That Section A (1) of such Commissioner Expense Allowance Policy be deleted in its
+                 entirety and replace with: 'Each commissioner shall annually be allotted an amount
+                 (currently $12,500) to be used for business expenses to include travel (local and out-of­
+                 town), additional office space, utilities on additional office space, supplies, any other
+                 business expenses incurred in the furtherance of their duties as a member of the County
+                 Commission, and/or other uses by such commissioner as discretionary funds to be
+                 spent at his/her direction within the guidelines established for the expenditure of
+                 Commissioner Discretionary Funds'.
+
+
+
+
+                                                                                                   14
+                                                                                Exhibit VII
+
+
+         office personnel, shall assist in the accumulation of the paperwork required by the
+         appropriate office of the County Finance Division to comply with the travel policy
+         established for County General Government. Each commissioner is to notify the Office
+         of the County Commission of any out-of-town travel which he/she plans to take.
+
+      2. Any travel by individual commissioners paid for, in whole or in part, by a non­
+         governmental entity shall be considered personal travel; and, without approval of the
+         Commission Chair or Chair Pro Tempore, no County funds shall be applied thereto.
+
+     3. No commissioner shall be approved for out-of-town travel expenses if said commissioner
+        has failed to submit the appropriate paperwork for any prior out-of-town trips which were
+        paid for, either wholly or in part, by County funds, until said deficiency has been
+        corrected.
+
+E. PURCHASES
+  All other purchases and financial obligations and/or charges by the County Commission as well
+  as individual commissioners shall be submitted to the Legislative Administrator and approved
+  by the Commission Chair to be processed through the Purchasing Rules and Regulations of
+  Hamilton County.
+
+
+  Any deviation from this Policy shall require prior approval of the Commission Chair.
+
+
+
+
+           Source: Resolution #1118-14 - Expense Allowance                               15
+           Policy for the Hamilton County Commission
+                                                                                          Exhibit VIII
+
+
+
+
+Document: Tenn. Code Ann. § 5-9-109
+
+
+
+
+                                   Tenn. Code Ann. § 5-9-109
+
+
+                                                Copy Citation
+
+
+                                   Current through the 2024 Regular Session.
+
+   Tennessee Code Table of Contents PAW- ET TABLE OF CONTENTS                    Title 5 Counties
+
+     Chapter 9 Appropriation and Disbursement of Funds               Part 1 Authorized Appropriations
+
+   Generally
+
+
+
+   5-9-109. Charitable and civic organizations.
+   (a)
+
+   (1) The county legislative body or governing body of each county may appropriate funds for the financial
+
+   aid of any nonprofit charitable organization, any chamber of commerce, exempt from taxation pursuant
+
+   to the Internal Revenue Code of 1954, § 501(c)(6) (26 U.S.C. § 501(c)(6)), or any nonprofit civic
+
+   organization in accordance with the guidelines required by subsection (b).
+
+   (2) For the purposes of this section:
+
+   (A) A nonprofit charitable organization is one in which no part of the net earnings inures or may lawfully
+
+   inure to the benefit of any private shareholder or individual and that provides services benefiting the
+
+   general welfare of the residents of the county; and
+
+   (B) A nonprofit civic organization means a civic organization exempt from taxation pursuant to § 501(c)
+
+   (4) of the Internal Revenue Code (26 U.S.C. § 501(c)(4)), that operates primarily in the county for the
+
+   purpose of bringing about civic betterments and social improvements through efforts to maintain and
+
+   increase employment opportunities in the county by promoting industry, trade, commerce, tourism and
+
+   recreation by inducing manufacturing, industrial, governmental, educational, financial, service,
+
+   commercial, recreational and agricultural enterprises to locate in or remain in the county.
+
+   (3) The statement of public policy set forth in Acts 1955, chapter 209, § 3 is hereby incorporated into
+
+   and made a part of this section, and it is hereby determined and declared that appropriations authorized
+
+   by this section are needed to relieve the emergency created by the continuing migration from Tennessee
+
+   and its counties of a large number of its citizens in order to find employment elsewhere, and to enable
+
+                                                                                                 16
+the counties of the state to assist nonprofit organizations in furthering the economic development, social
+
+welfare and common good of its residents.
+
+(b) Each county legislative body shall devise guidelines directing for what purposes the appropriated
+
+money may be spent. These guidelines shall provide generally that any funds appropriated shall be used
+
+to promote the general welfare of the residents of the county. Any funds appropriated under this section
+
+shall be used and expended under the direction and control of the county legislative bodies.
+
+(c)
+
+(1) Any nonprofit organization that desires financial assistance from the county legislative body or the
+
+governing body of the county shall file with the county clerk a copy of an annual report of its business
+
+affairs and transactions, which includes, but is not limited to, a copy of an annual audit, a description of
+
+the program that serves the residents of the county, and the proposed use of the county assistance.
+
+(2) Such report will be open for public inspection during the regular business hours of the county clerk's
+
+office.
+
+(3) Any nonprofit organization that desires such financial assistance may file, in lieu of the annual audit,
+
+an annual report detailing all receipts and expenditures in a form prescribed by the comptroller of the
+
+treasury.
+
+(4) Such report shall be prepared and certified by the chief financial officer of such nonprofit
+
+organization.
+
+(5) Financial reports shall be available to fiscal officers of the county and shall be subject to audit under
+
+§ 4-3-304.
+
+(d) Appropriations to nonprofit organizations other than charitable organizations may be made only
+
+when notices have been published in a newspaper of general circulation in the county of the intent to
+
+make an appropriation to a nonprofit but not charitable organization, specifying the intended amount of
+
+the appropriation and the purposes for which the appropriation will be spent.
+
+
+
+
+History
+
+
+
+Acts 1976, ch. 696, § 1; 1977, ch. 120, § 1; impl. am. Acts 1978, ch. 934, §§ 7, 22, 36; Acts 1979, ch.
+
+132, § 1; T.C.A., § 5-932; Acts 1984, ch. 820, §§ 1, 3; 1989, ch. 62, § 1; 1992, ch. 545, §§ 1, 2;
+
+1995, ch. 106, § 1; 1999, ch. 38, § 1; 2010, ch. 740, § 1; 2017, ch. 123, § 1.
+
+
+
+
+TENNESSEE CODE ANNOTATED
+
+Copyright © 2025 by The State of Tennessee All rights reserved
+
+
+
+
+                                                                                                17
+                                                                                      Exhibit IX
+
+
+
+
+                       Department of Finance and Administration
+                      Policy 8 - Comprehensive Travel Regulations
+                                     (Revised Janunry 2022)
+
+
+
+
+ Introduction
+
+  I. It is the intent of these regulations that employees do not suffer additional cost as a
+ result of travel incurred to carry out assigned duties. Employees shall be reimbursed for
+ such expenses subject to the limitations provided in this travel policy and the
+ accompanying Reimbursement Rate Schedule.
+
+2. When traveling, state employees should be as conservative as circumstances pennit.
+The lower cost should be selected whenever practical. Reimbursement for travel will be
+based upon the most direct or expeditious route possible. Employees traveling by an
+indirect route must assume any extra expense incurred. It is the responsibility of the
+employee to be familiar with and adhere to established state travel policies. Deliberate
+disregard of these regulations while traveling on state business or the filing of an
+intentionally misleading or fraudulent travel claim is grounds for disciplinary action
+including termination of employment.
+
+3. The Commissioner of Finance & Administration will establish and maintain the
+maximum rates of reimbursement.
+
+Travel Authorization
+
+4. Travel may not be undertaken unless it is authorized in advance by proper authority.
+Approved state travel is the basis for reimbursement in accordance with these provisions.
+The employee is considered to be on official travel status, and eligible for reimbursement,
+at the time of departure from his/her official station or residence, whichever is applicable.
+When completing an Edison travel authorization, the destination should always be
+entered under "default location," to ensure appropriate worktlow for the authorization
+form.
+
+5. The department head is authorized to approve all travel for state business, including
+meeting expenses. registration fees for conferences or seminars, etc. The Department
+head is responsible for detennining the most cost-effective means of meeting the State's
+business objective considering the use of state meeting rooms, park convention centers,
+video conferencing, etc. The use of virtual meetings as an alternative to holding a
+conference or meeting in real life should be actively encouraged as a cost-savings tool.
+Video conferencing is a green technology, allowing departments to mitigate energy use
+by dramatically reducing the need to travel.
+
+
+
+
+                                                                                           18
+ 6. The Commissioner of Finance and Administration, through the Division of Accounts,
+ shall approve exceptions to the travel policy. Department heads are authorized to
+ approve any necessary travel by a non-state employee. Such travel should be conducted
+ and reimbursed in accordance with these Travel Regulations. Department heads are
+ authorized to approve occasional exceptions to lodging and meal rates when necessity
+ requires, and reasonable alternatives are not available (i.e. lodging unavailable at CONUS
+ rates).
+
+ 7. Approval for out-of-state employee travel is processed through the Edison Travel
+ Authorization workflow. Once approved by the department head, Executive Level Travel
+ Authorizations for out-of-state travel will be routed to the Department of Finance and
+ Administration for review and approval. During periods of extreme budget stress,
+ additional executive level review may occur.
+
+ 8. The Commissioner of Finance and Administration retains the authority to change the
+ approval process as circumstances require.
+
+ 9. Ifan employee travels into another state and back in the same day and such travel is
+ less than fifty (50) miles one way, such travel will be considered in-state for approval and
+ reimbursement purposes.
+
+ Official Station
+
+ I 0. The official station is designated by the department head ofthe employing agency,
+and the designation must be in the best interests of the State. The official station shall be
+a location where the employee regularly works, and the work activities of the employee's
+position are based. The employee's home shall not be designated as the official station
+without documentation establishing that the employee's home office is the
+employee's principal place ofbusiness within the meaning of26 USC§ 280A (c)(l)(A).
+The department head should consider IRS regulations on the deductibility of travel
+expenses as well as wage and hour laws when designating an official station for
+employees, particularly in mobile work situations, and may want to consult Wtth legal
+counsel.
+
+ 11. An important purpose ofan official station is to establish when the employee is in
+travel status and eligible for reimbursement of travel expenses. Travel between the
+employee's home (place of residence) and official station is considered commuting and is
+not reimbursable.
+
+ 12. Employees who are authorized to participate in the alternative workplace arrangement
+may be assigned their residence (or alternative approved location) as their official
+designated reporting station for the days he or she works away from their regularly
+assigned State government office location. The employee's official station will be
+designated by their department head pursuant to paragraph I 0, and the employee will not
+receive reimbursement for travel incurred between his or her official designated reporting
+station and official station.
+
+
+
+
+                                                                                           19
+  13. In the event that an employee is reassigned to a temporary work location, which is
+ generally defined as a place where the work assignment is realistically expected to last
+ (and does in fact last) one year or less, the employee will not be eligible for
+ reimbursement unless he/she can demonstrate that by commuting to the temporary
+ location he/she has incurred additional expense over the cost of the commute to his/her
+ official station. However, an employee shall be eligible for reimbursement of mileage for
+ travel to a temporary work location for travel at times other than the employee's nonnal
+ working hours (i.e. nights or weekends).
+
+  14. Jf an employee does not have an official station due to a mobile work arrangement,
+ the employee will not be entitled to reimbursement for mileage between the employee's
+ home and temporary work locations within the metropolitan area where the employee
+ lives, even if the travel occurs at times other than the employee's normal working hours.
+ Generally, a metropolitan area inclu�es the area within the city limits and the suburbs that
+ are considered part of that metropolitan area.
+
+ Reimbursement Procedures
+
+ 15. Submission of an expense report by an employee or his proxy initiates the travel
+reimbursement process with approvals handled electronically through the Edison role­
+mapping structure. Employees must authorize the set-up of a proxy in Edison prior to the
+submission of an initial expense claim by a proxy. Proxy-submitted travel claims must
+include the attached paper version of the travel claim, signed, and dated by the employee,
+along with appropriate receipts.
+
+ 16. Employees should submit claims for reimbursement through the Edison system as
+soon as possible following completion of travel. Employees on regular travel status
+should consider filing an expense report weekly or biweekly. Departments and agencies
+should review expense reports as rapidly as possible to ensure prompt payment to their
+employees. In accordance with Internal Revenue Service guidance (IRS Publication 463),
+reimbursement paid sixty (60) days after the date of travel may be considered as taxable
+income.
+
+ 17. Expense reports prepared to request reimbursement of business-related expenses
+incurred while on official travel must include the actual amount of all state paid expenses
+associated with the trip, even though the employee will not be reimbursed for these
+amounts (i.e. airfare and registralion fees). State paid expenses include amounts that are
+initially paid by the state and subsequently reimbursed or funded through federal, local,
+or private sources.
+
+Travel Advances
+
+I 8. Travel advances are available only under extraordinary circumstances. Advances are
+subject to the approval of the Division of Accounts and will be allowed (a) only if the
+employee can justify extraordinary circumstances that warrant an advance, and (b) the
+
+
+
+
+                                                                                           20
+

@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Commissioner Discretionary Spending</title>
+  <script src="theme.js"></script>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="page viz-root">
+
+    <div class="topbar">
+      <p class="eyebrow" id="jurisdiction"></p>
+      <div class="theme-toggle" role="group" aria-label="Color theme">
+        <button type="button" data-set-theme="light" aria-pressed="false">
+          <svg viewBox="0 0 16 16" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round">
+            <circle cx="8" cy="8" r="3"/>
+            <path d="M8 1v1.5M8 13.5V15M1 8h1.5M13.5 8H15M3 3l1 1M12 12l1 1M3 13l1-1M12 4l1-1"/>
+          </svg>
+          Light
+        </button>
+        <button type="button" data-set-theme="dark" aria-pressed="false">
+          <svg viewBox="0 0 16 16" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round">
+            <path d="M13.5 9.5A5.5 5.5 0 0 1 6.5 2.5a5.5 5.5 0 1 0 7 7z"/>
+          </svg>
+          Dark
+        </button>
+      </div>
+    </div>
+
+    <p class="notice" id="notice" hidden></p>
+
+    <header class="masthead">
+      <h1 id="title">Commissioner Discretionary Spending</h1>
+      <p class="lede" id="lede"></p>
+    </header>
+
+    <form class="filters" id="filters" aria-label="Filters">
+      <label>Fiscal year
+        <select id="f-year"></select>
+      </label>
+      <label>District
+        <select id="f-district"></select>
+      </label>
+      <label class="grow">Find a recipient
+        <input id="f-search" type="search" placeholder="Name of school, group or business">
+      </label>
+    </form>
+
+    <section aria-labelledby="h-summary">
+      <h2 id="h-summary" class="visually-hidden">Summary</h2>
+      <div class="tiles" id="tiles"></div>
+    </section>
+
+    <section aria-labelledby="h-commissioners">
+      <div class="section-head">
+        <div>
+          <h2 id="h-commissioners">By commissioner</h2>
+          <p class="hint">Select a commissioner to see every line.</p>
+        </div>
+        <ul class="legend" id="legend"></ul>
+      </div>
+      <div class="card">
+        <table class="commissioners" id="commissioners"></table>
+      </div>
+    </section>
+
+    <section aria-labelledby="h-gifts">
+      <div class="section-head">
+        <h2 id="h-gifts">Gifts</h2>
+        <p class="hint">Select a gift to see its full record.</p>
+      </div>
+      <div class="card">
+        <table class="gifts" id="gifts"></table>
+        <p class="empty" id="gifts-empty" hidden>No gifts match these filters.</p>
+      </div>
+    </section>
+
+    <section aria-labelledby="h-history">
+      <div class="section-head">
+        <h2 id="h-history">Spending by year</h2>
+        <button type="button" class="link" id="history-toggle" aria-pressed="false">Show as table</button>
+      </div>
+      <div class="card">
+        <div class="chart" id="history-chart"></div>
+        <table class="history-table" id="history-table" hidden></table>
+      </div>
+    </section>
+
+    <footer class="about" id="about">
+      <h2>About this data</h2>
+      <p>Every figure comes from the county's yearly discretionary spending reports. Each report line is kept,
+        and every closing balance the reports print matches the opening balance minus the payments.</p>
+      <p>Some commissioners also hold older balances in a general fund account and a 2015 bond fund. Those
+        balances are included here.</p>
+      <p>The reports do not label spending by type. For past years, each line was sorted into gifts, travel and
+        office, or purchases for others by reading its description, so a few lines may be sorted wrong.
+        The county's account codes can replace this sorting.</p>
+      <p>Resolution numbers for FY2023 and FY2024 gifts come from the county's 2025 audit. Other years'
+        resolution numbers, and every gift's goal and outcome, have not been published.</p>
+      <h3>Sources</h3>
+      <ul id="sources"></ul>
+      <h3>Download the data</h3>
+      <ul id="downloads"></ul>
+      <p class="credit" id="credit" hidden></p>
+    </footer>
+    <dialog class="detail" id="detail" aria-labelledby="detail-title"></dialog>
+  </div>
+
+  <div class="tooltip viz-root" id="tooltip" role="status" hidden></div>
+  <script src="app.js"></script>
+</body>
+</html>
