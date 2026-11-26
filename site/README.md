@@ -21,6 +21,7 @@ The page reads three CSV files. Making it the county's own page means hosting th
 - The page is static files only. It needs no database, server code or build step.
 - On IIS, keep `web.config` or merge its `staticContent` block into the site's existing one.
 - To remove the prototype banner, set `"notice": ""` in `config.json`.
+- Link previews use `og-image.png` and the `og:` tags in `index.html`. Those tags name the page's address, so update them if the page moves. `scripts/og/make_og_image.py` rebuilds the image from the data.
 - The builder credit and the related-tools link at the bottom come from `"credit"` and `"more"` in `config.json`. Delete either block to remove it.
 - Tested in Chrome at desktop and narrow widths, in light and dark mode. Other browsers are untested.
 - The page follows the viewer's system light or dark setting. A Light/Dark switch at the top overrides it and is remembered in that browser.
