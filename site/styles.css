@@ -23,6 +23,8 @@
   --critical: #d03b3b;
   --notice-bg: #f3e7c4;
   --notice-ink: #4f3b00;
+  --credit-bg: #dce6f2;
+  --credit-border: #a9c0de;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -45,6 +47,8 @@
     --notice-ink: #f3dc9a;
     --track: #2a2a28;
     --link: #6da7ec;
+    --credit-bg: #15212f;
+    --credit-border: #2a4566;
   }
 }
 
@@ -81,6 +85,8 @@ html, body {
   --notice-ink: #f3dc9a;
   --track: #2a2a28;
   --link: #6da7ec;
+  --credit-bg: #15212f;
+  --credit-border: #2a4566;
 }
 
 :root[data-theme="dark"],
@@ -583,14 +589,21 @@ table.lines td:first-child { padding-left: 0; }
 .about ul { padding-left: 18px; margin: 6px 0 0; }
 
 .credit {
-  margin: 28px 0 0;
-  padding-top: 14px;
-  border-top: 1px solid var(--grid);
-  font-size: 13px;
-  color: var(--text-muted);
+  margin: 36px 0 0;
+  padding: 18px 20px;
+  text-align: center;
+  font-size: 16px;
+  line-height: 1.6;
+  color: var(--text-primary);
+  background: var(--credit-bg);
+  border: 1px solid var(--credit-border);
+  border-radius: 10px;
 }
 
-.credit a { color: inherit; }
+.credit a {
+  color: var(--link);
+  font-weight: 600;
+}
 
 @media (max-width: 640px) {
   h1 { font-size: 23px; }
