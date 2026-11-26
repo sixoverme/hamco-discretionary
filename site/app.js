@@ -333,13 +333,13 @@
 
       const open = () => openCommissioner(p.district, p.commissioner);
       return el("tr", { class: "row", onclick: (e) => { if (!e.target.closest("button, .bar span")) open(); } },
-        el("td", {}, p.district),
-        el("td", {},
+        el("td", { class: "c-dist" }, p.district),
+        el("td", { class: "c-name" },
           el("button", { type: "button", class: "expand", "aria-haspopup": "dialog", onclick: open }, p.commissioner),
           allYears ? el("div", { class: "muted small" }, yearSpan(p.years)) : null),
-        allYears ? null : el("td", { class: "num" }, dollars.format(p.available)),
-        el("td", { class: "num" }, dollars.format(spent)),
-        el("td", { class: "bar-cell" },
+        allYears ? null : el("td", { class: "num c-avail" }, dollars.format(p.available)),
+        el("td", { class: "num c-spent" }, dollars.format(spent)),
+        el("td", { class: "bar-cell c-bar" },
           el("div", { class: "bar", style: `width:${width}%`, role: "img", "aria-label": `${who}: ` + parts.map((x) => `${x.label} ${dollars.format(x.value)}`).join(", ") },
             parts.map((x) => el("span", {
               class: x.cls,
@@ -350,7 +350,7 @@
               onfocus: (e) => showTip(e, who, [{ name: x.label, value: x.value, cls: x.cls, style: x.style }]),
               onblur: hideTip,
             })))),
-        allYears ? null : el("td", { class: "num" }, dollars.format(p.remaining)));
+        allYears ? null : el("td", { class: "num c-left" }, dollars.format(p.remaining)));
     }));
 
     document.getElementById("commissioners").replaceChildren(head, body);
@@ -394,7 +394,7 @@
       el("th", {}, sortButton("recipient", "Recipient and project", "ascending")),
       el("th", {}, sortButton("district", "District", "ascending")),
       el("th", { class: "num" }, sortButton("amount", "Amount", "descending")),
-      el("th", {}, "Resolution"),
+      el("th", { class: "g-res" }, "Resolution"),
       el("th", {}, sortButton("status", "Outcome", "ascending"))));
 
     const rows = [];
@@ -411,14 +411,14 @@
         : el("span", { class: "muted small" }, "Not on record");
 
       rows.push(el("tr", { class: "row", "aria-expanded": String(open), onclick: (e) => { if (!e.target.closest("button")) toggle(); } },
-        el("td", {},
+        el("td", { class: "g-name" },
           el("button", { type: "button", class: "expand", "aria-expanded": String(open), "aria-controls": `rec-${g.gift_id}`, onclick: toggle },
             el("span", { class: "chevron", "aria-hidden": "true" }, "›"), g.recipient),
           g.project ? el("div", { class: "muted small" }, g.project) : null),
-        el("td", { class: "small" }, `District ${g.district}`, el("div", { class: "muted" }, `${g.commissioner}, FY${g.fiscal_year}`)),
-        el("td", { class: "num" }, dollars.format(paid || g.amount_approved)),
-        el("td", { class: "small" }, res),
-        el("td", {}, statusChip(g))));
+        el("td", { class: "small g-dist" }, `District ${g.district}`, el("div", { class: "muted" }, `${g.commissioner}, FY${g.fiscal_year}`)),
+        el("td", { class: "num g-amt" }, dollars.format(paid || g.amount_approved)),
+        el("td", { class: "small g-res" }, res),
+        el("td", { class: "g-status" }, statusChip(g))));
 
       if (open) rows.push(el("tr", { class: "record", id: `rec-${g.gift_id}` }, el("td", { colspan: "5" }, giftRecord(g))));
     });

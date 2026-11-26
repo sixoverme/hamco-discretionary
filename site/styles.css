@@ -609,6 +609,84 @@ table.lines td:first-child { padding-left: 0; }
   h1 { font-size: 23px; }
   .tile .value { font-size: 24px; }
   .filters { position: static; }
+
+  /* Phone tables: each row stacks so nothing scrolls sideways. */
+
+  .commissioners, .commissioners tbody,
+  .gifts, .gifts thead, .gifts tbody { display: block; }
+
+  .commissioners thead {
+    position: absolute;
+    width: 1px; height: 1px;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+  }
+
+  .commissioners tr {
+    display: grid;
+    grid-template-columns: 1.6em 1fr auto;
+    grid-template-areas:
+      "dist name  spent"
+      ".    bar   bar"
+      ".    avail left";
+    gap: 2px 8px;
+    padding: 12px 0;
+    border-bottom: 1px solid var(--grid);
+  }
+
+  .commissioners tr:last-child { border-bottom: 0; }
+  .commissioners td { display: block; padding: 0; border: 0; }
+  .c-dist { grid-area: dist; color: var(--text-muted); }
+  .c-name { grid-area: name; }
+  .c-spent { grid-area: spent; }
+  .c-bar { grid-area: bar; width: auto; min-width: 0; }
+  .c-avail { grid-area: avail; text-align: left; }
+  .c-left { grid-area: left; }
+  .c-avail, .c-left { font-size: 13px; color: var(--text-secondary); }
+  .c-spent::before, .c-avail::before, .c-left::before { color: var(--text-muted); font-size: 13px; }
+  .c-spent::before { content: "Spent "; }
+  .c-avail::before { content: "Available "; }
+  .c-left::before { content: "Left "; }
+
+  .gifts thead tr {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    gap: 0 16px;
+    border-bottom: 1px solid var(--axis);
+  }
+
+  .gifts thead tr::before { content: "Sort by"; font-size: 13px; color: var(--text-muted); }
+  .gifts thead th { padding: 8px 0; border: 0; }
+  .gifts thead th.g-res { display: none; }
+
+  .gifts tr.row {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    grid-template-areas:
+      "name amt"
+      "dist dist"
+      "res  status";
+    gap: 4px 12px;
+    padding: 12px 0;
+    border-bottom: 1px solid var(--grid);
+  }
+
+  .gifts tr.row td { display: block; padding: 0; border: 0; background: none; }
+  .g-name { grid-area: name; }
+  .g-amt { grid-area: amt; }
+  .g-dist { grid-area: dist; }
+  .g-dist div { display: inline; }
+  .g-dist div::before { content: " · "; }
+  .g-res { grid-area: res; }
+  .g-res::before { content: "Resolution: "; color: var(--text-muted); }
+  .g-status { grid-area: status; justify-self: end; }
+
+  .gifts tr.record { display: block; border-bottom: 1px solid var(--grid); }
+  .record td { display: block; padding: 14px 12px; }
+  .record-grid { grid-template-columns: 1fr; }
+  .record dl { grid-template-columns: max-content minmax(0, 1fr); }
+  .record dd, .record .note { overflow-wrap: anywhere; }
 }
 
 @media print {
