@@ -38,4 +38,9 @@ for fy in $(seq "$first" "$this_fy"); do
 done
 
 python3 -I scripts/parse_reports.py raw/txt data
+
+# New resolutions from the last year. The saved copy covers earlier ones.
+python3 -I scripts/fetch_resolutions.py "$(date -d '-12 months' +%Y-%m-01)" \
+  || echo "Resolution search unavailable; using the saved copy"
+
 python3 -I scripts/build_data.py

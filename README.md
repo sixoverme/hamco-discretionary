@@ -21,7 +21,9 @@ Run it by hand from the Actions tab. The "check only" option re-reads every PDF 
 - `site/` is the page. Its README is written for county IT, Finance and the Finance Committee.
 - `scripts/refresh.sh` downloads and re-reads the reports, then rebuilds the data.
 - `scripts/parse_reports.py` turns report text into `data/ledger_raw.csv`. It stops if any fund block fails to reconcile.
-- `scripts/build_data.py` assigns categories, builds the gift register and matches the audit's resolution numbers.
+- `scripts/build_data.py` assigns categories, builds the gift register and matches each gift to its commission resolution. The build stops if a FY2023 or FY2024 match disagrees with the 2025 audit.
+- `scripts/fetch_resolutions.py` pulls resolutions and committee discussion from the county's resolution archive into `data/resolutions.csv`. The daily job refreshes the last 12 months.
+- `data/resolution_matches.csv` holds the few matches made by hand, each with its evidence.
 - `scripts/new_lines.py` lists spending lines that are new since the last publish.
 
 ## Preview locally

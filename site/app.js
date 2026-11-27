@@ -276,8 +276,8 @@
       { label: "Spent", value: dollars.format(spent), sub: report ? `of ${dollars.format(available)} available, ${scope}` : scope },
       { label: "Gifts to organizations", value: gifts.length.toLocaleString(), sub: `${dollars.format(giftDollars)} paid to ${orgs} recipients` },
       {
-        label: "Gifts with a resolution on record", value: `${withRes} of ${gifts.length}`,
-        sub: "County policy requires a commission resolution for every gift",
+        label: "Gifts matched to a commission resolution", value: `${withRes} of ${gifts.length}`,
+        sub: "Each match links to the resolution in the county's archive",
       },
       {
         label: "Gifts with a reported outcome", value: `${withOutcome.length} of ${gifts.length}`,
@@ -406,9 +406,12 @@
         syncURL();
         renderGifts();
       };
+      const resNo = g.resolution_url
+        ? el("a", { href: g.resolution_url, target: "_blank", rel: "noopener", onclick: (e) => e.stopPropagation() }, g.resolution_no)
+        : g.resolution_no;
       const res = g.resolution_no
-        ? el("span", {}, g.resolution_no, g.resolution_date ? el("div", { class: "muted small" }, fmtDate(parseDate(g.resolution_date))) : null)
-        : el("span", { class: "muted small" }, "Not on record");
+        ? el("span", {}, resNo, g.resolution_date ? el("div", { class: "muted small" }, fmtDate(parseDate(g.resolution_date))) : null)
+        : el("span", { class: "muted small" }, "No match found");
 
       rows.push(el("tr", { class: "row", "aria-expanded": String(open), onclick: (e) => { if (!e.target.closest("button")) toggle(); } },
         el("td", { class: "g-name" },
@@ -473,8 +476,15 @@
             field("In the district", g.recipient_in_district),
             field("Project", g.project),
             field("Amount approved", g.amount_approved ? cents.format(g.amount_approved) : ""),
-            field("Resolution", g.resolution_no),
+            g.resolution_url
+              ? [el("dt", {}, "Resolution"), el("dd", {}, el("a", { href: g.resolution_url, target: "_blank", rel: "noopener" }, g.resolution_no))]
+              : g.resolution_no
+                ? field("Resolution", g.resolution_no)
+                : [el("dt", {}, "Resolution"), el("dd", {}, el("span", { class: "missing" }, "No match found in the county's resolution archive"))],
             field("Approved on", date(g.resolution_date)),
+            g.stated_purpose
+              ? [el("dt", {}, "Said in committee"), el("dd", { class: "minutes" }, g.stated_purpose.toLowerCase())]
+              : null,
             field("Goal", g.goal),
             field("Report due", date(g.report_due)))),
         el("div", {},

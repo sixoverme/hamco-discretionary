@@ -395,6 +395,9 @@ button.expand:focus-visible { outline: 2px solid var(--focus); outline-offset: 2
 .record dt { color: var(--text-secondary); }
 .record dd { margin: 0; }
 .record .missing { color: var(--text-muted); font-style: italic; }
+
+/* Minutes are all caps; small caps keeps them readable. */
+.record .minutes { font-variant: small-caps; letter-spacing: 0.02em; }
 .record .note { margin: 12px 0 0; font-size: 13px; color: var(--text-secondary); }
 
 .more {

@@ -64,7 +64,7 @@ One row per line of the spending report Finance already produces. Finance can ex
 | `total_expenses` | The report's own total |
 | `ending_balance` | The report's closing balance |
 
-`category` should come from the account code each payment posts to. For FY2017 to FY2027 it was assigned from the report text. See Known limits.
+`category` is assigned from the report text, because the reports don't label spending by type. Gifts are checked against the commission's resolutions. See Known limits.
 
 ## gifts.csv
 
@@ -83,6 +83,8 @@ Set when the commission approves the gift:
 | `project` | What the money is for |
 | `amount_approved` | Dollars in the resolution |
 | `resolution_no`, `resolution_date` | The approving resolution |
+| `resolution_url` | Link to the resolution PDF in the county's resolution archive |
+| `stated_purpose` | What the committee discussion in the minutes says the money is for |
 | `goal` | One line someone can check later, such as "Buy two thermal imaging cameras" |
 | `report_due` | Date the recipient's report is due |
 
@@ -113,7 +115,7 @@ A year whose `as_of` isn't June 30 shows as in progress.
 
 ## What the policy needs to require
 
-Every blank column above is something no one records today. The dashboard can only show what the policy asks for.
+Every blank column above is something the county doesn't publish today. The dashboard can only show what the policy asks for.
 
 | Field | Policy requirement |
 |---|---|
@@ -128,7 +130,7 @@ Every blank column above is something no one records today. The dashboard can on
 ## Known limits of the prototype data
 
 - Categories for FY2017 to FY2027 were assigned by keyword from each report line. Fixes go in `scripts/category_overrides.csv`.
-- Resolution numbers exist only for FY2023 and FY2024 gifts, taken from Exhibit I of the 2025 audit. All 87 audit rows matched a report line.
+- Resolution numbers come from the county's resolution archive (`data/resolutions.csv`, pulled by `scripts/fetch_resolutions.py`). Each gift is matched by district, amount, name and date. The build stops if any FY2023 or FY2024 match disagrees with Exhibit I of the 2025 audit.
 - Commissioner names appear as the reports print them, which is last names only.
 - All 282 fund blocks reconcile. Each one's opening money minus its spending equals the closing balance the report prints.
 - All 60 "Total Expenses" lines printed in FY2024 to FY2027 match the page's spending for that block.
