@@ -169,11 +169,11 @@ L2017-00167,2017,5,Beck,general_fund_discretionary,payment,gift,G2017-D05-008,"F
 L2017-00168,2017,5,Beck,general_fund_discretionary,ending_balance,,,,,Ending Balance 06/30/2017,46575.50,FY2017.pdf,349
 L2017-00169,2017,5,Beck,bond_fund,beginning_balance,,,,,Beginning Balance 07/01/2016,38613.40,FY2017.pdf,353
 L2017-00170,2017,5,Beck,bond_fund,transfer,transfer,,,,Budget adjustment - transfer to District 8 (per resolution #716-26),-2500.00,FY2017.pdf,354
-L2017-00171,2017,5,Beck,bond_fund,payment,gift,G2017-D05-009,Security system for Woodmore Elementary,,Security system for Woodmore Elementary,-29.24,FY2017.pdf,358
-L2017-00172,2017,5,Beck,bond_fund,payment,gift,G2017-D05-010,Hillcrest Elementary,books,Hillcrest Elementary - books,-7429.79,FY2017.pdf,359
-L2017-00173,2017,5,Beck,bond_fund,payment,gift,G2017-D05-011,Hillcrest Elementary,books,Hillcrest Elementary - books,-2497.56,FY2017.pdf,360
-L2017-00174,2017,5,Beck,bond_fund,payment,gift,G2017-D05-012,Dalewood Middle,security system,Dalewood Middle - security system,-4629.72,FY2017.pdf,361
-L2017-00175,2017,5,Beck,bond_fund,payment,gift,G2017-D05-013,Brainerd High,stadium sound system,Brainerd High - stadium sound system,-6850.00,FY2017.pdf,362
+L2017-00171,2017,5,Beck,bond_fund,payment,community_purchase,,Security system for Woodmore Elementary,,Security system for Woodmore Elementary,-29.24,FY2017.pdf,358
+L2017-00172,2017,5,Beck,bond_fund,payment,gift,G2017-D05-009,Hillcrest Elementary,books,Hillcrest Elementary - books,-7429.79,FY2017.pdf,359
+L2017-00173,2017,5,Beck,bond_fund,payment,gift,G2017-D05-010,Hillcrest Elementary,books,Hillcrest Elementary - books,-2497.56,FY2017.pdf,360
+L2017-00174,2017,5,Beck,bond_fund,payment,gift,G2017-D05-011,Dalewood Middle,security system,Dalewood Middle - security system,-4629.72,FY2017.pdf,361
+L2017-00175,2017,5,Beck,bond_fund,payment,gift,G2017-D05-012,Brainerd High,stadium sound system,Brainerd High - stadium sound system,-6850.00,FY2017.pdf,362
 L2017-00176,2017,5,Beck,bond_fund,ending_balance,,,,,Ending Balance 06/30/2017,14677.09,FY2017.pdf,364
 L2017-00177,2017,6,Graham,travel_discretionary,carryover,,,,,Balance as of 06/30/2016,65266.52,FY2017.pdf,374
 L2017-00178,2017,6,Graham,travel_discretionary,budget,,,,,New Budget,12500.00,FY2017.pdf,375
@@ -183,7 +183,7 @@ L2017-00181,2017,6,Graham,travel_discretionary,ending_balance,,,,,Ending Balance
 L2017-00182,2017,6,Graham,general_fund_discretionary,carryover,,,,,Balance as of 06/30/2016,115643.26,FY2017.pdf,385
 L2017-00183,2017,6,Graham,general_fund_discretionary,budget,,,,,General Fund Discretionary new budget,0.00,FY2017.pdf,386
 L2017-00184,2017,6,Graham,general_fund_discretionary,beginning_balance,,,,,Beginning Balance 07/01/2016,115643.26,FY2017.pdf,387
-L2017-00185,2017,6,Graham,general_fund_discretionary,payment,gift,G2017-D06-001,Ross Glass & Aluminum,window replacement at JA Patten recreation center,Ross Glass & Aluminum - window replacement at JA Patten recreation center,-32275.00,FY2017.pdf,390
+L2017-00185,2017,6,Graham,general_fund_discretionary,payment,community_purchase,,Ross Glass & Aluminum,window replacement at JA Patten recreation center,Ross Glass & Aluminum - window replacement at JA Patten recreation center,-32275.00,FY2017.pdf,390
 L2017-00186,2017,6,Graham,general_fund_discretionary,ending_balance,,,,,Ending Balance 06/30/2017,83368.26,FY2017.pdf,392
 L2017-00187,2017,6,Graham,bond_fund,beginning_balance,,,,,Beginning Balance 07/01/2016,33274.89,FY2017.pdf,397
 L2017-00188,2017,6,Graham,bond_fund,ending_balance,,,,,Ending Balance 06/30/2017,33274.89,FY2017.pdf,401
@@ -1303,9 +1303,9 @@ L2022-01301,2022,2,Baker,travel_discretionary,payment,travel_office,,Diversified
 L2022-01302,2022,2,Baker,travel_discretionary,payment,travel_office,,Amazon Marketplace,,Amazon Marketplace,-2500.00,FY2022.pdf,109
 L2022-01303,2022,2,Baker,travel_discretionary,payment,gift,G2022-D02-002,Mowbray Volunteer Fire Department,,Mowbray Volunteer Fire Department,-64.70,FY2022.pdf,110
 L2022-01304,2022,2,Baker,travel_discretionary,payment,travel_office,,Chattanooga Times Free Press,Legal Notice,Chattanooga Times Free Press - Legal Notice,-430.00,FY2022.pdf,111
-L2022-01305,2022,2,Baker,travel_discretionary,payment,gift,G2022-D02-003,Peabody Memphis,,Peabody Memphis,-2550.00,FY2022.pdf,112
-L2022-01306,2022,2,Baker,travel_discretionary,payment,gift,G2022-D02-004,Walden's Ridge Emergency Service,,Walden's Ridge Emergency Service,-7500.00,FY2022.pdf,113
-L2022-01307,2022,2,Baker,travel_discretionary,payment,gift,G2022-D02-005,Mountain Education Foundation Kingship Chess Group,,Mountain Education Foundation Kingship Chess Group,-1250.84,FY2022.pdf,115
+L2022-01305,2022,2,Baker,travel_discretionary,payment,travel_office,,Peabody Memphis,,Peabody Memphis,-2550.00,FY2022.pdf,112
+L2022-01306,2022,2,Baker,travel_discretionary,payment,gift,G2022-D02-003,Walden's Ridge Emergency Service,,Walden's Ridge Emergency Service,-7500.00,FY2022.pdf,113
+L2022-01307,2022,2,Baker,travel_discretionary,payment,gift,G2022-D02-004,Mountain Education Foundation Kingship Chess Group,,Mountain Education Foundation Kingship Chess Group,-1250.84,FY2022.pdf,115
 L2022-01308,2022,2,Baker,travel_discretionary,ending_balance,,,,,Ending Balance 06/30/2022,0.00,FY2022.pdf,119
 L2022-01309,2022,2,Baker,general_fund_discretionary,carryover,,,,,Balance as of 06/30/2021,825.08,FY2022.pdf,124
 L2022-01310,2022,2,Baker,general_fund_discretionary,budget,,,,,General Fund Discretionary new budget,0.00,FY2022.pdf,125
@@ -1414,11 +1414,11 @@ L2022-01412,2022,6,Sharpe,travel_discretionary,payment,travel_office,,Hotel,,Hot
 L2022-01413,2022,6,Sharpe,travel_discretionary,payment,travel_office,,NACO 2022 Travel Advance,,NACO 2022 Travel Advance,-434.50,FY2022.pdf,460
 L2022-01414,2022,6,Sharpe,travel_discretionary,payment,travel_office,,Registration,,Registration,-520.00,FY2022.pdf,461
 L2022-01415,2022,6,Sharpe,travel_discretionary,payment,travel_office,,Flight,,Flight,-392.20,FY2022.pdf,462
-L2022-01416,2022,6,Sharpe,travel_discretionary,payment,gift,G2022-D06-001,Washington Churchill,,Washington Churchill,-1391.50,FY2022.pdf,463
+L2022-01416,2022,6,Sharpe,travel_discretionary,payment,travel_office,,Washington Churchill,,Washington Churchill,-1391.50,FY2022.pdf,463
 L2022-01417,2022,6,Sharpe,travel_discretionary,payment,travel_office,,Charlotte Ballfield Trip Flight,,Charlotte Ballfield Trip Flight,-791.70,FY2022.pdf,465
-L2022-01418,2022,6,Sharpe,travel_discretionary,payment,gift,G2022-D06-002,The Hamilton County Schools Foundation,,The Hamilton County Schools Foundation,-2000.00,FY2022.pdf,466
+L2022-01418,2022,6,Sharpe,travel_discretionary,payment,gift,G2022-D06-001,The Hamilton County Schools Foundation,,The Hamilton County Schools Foundation,-2000.00,FY2022.pdf,466
 L2022-01419,2022,6,Sharpe,travel_discretionary,payment,travel_office,,Tennessee County Service Registration,,Tennessee County Service Registration,-100.00,FY2022.pdf,468
-L2022-01420,2022,6,Sharpe,travel_discretionary,payment,gift,G2022-D06-003,Hamilton County Schools Foundation,,Hamilton County Schools Foundation,-4233.91,FY2022.pdf,469
+L2022-01420,2022,6,Sharpe,travel_discretionary,payment,gift,G2022-D06-002,Hamilton County Schools Foundation,,Hamilton County Schools Foundation,-4233.91,FY2022.pdf,469
 L2022-01421,2022,6,Sharpe,travel_discretionary,ending_balance,,,,,Ending Balance 06/30/2022,0.00,FY2022.pdf,473
 L2022-01422,2022,6,Sharpe,general_fund_discretionary,carryover,,,,,Balance as of 06/30/2021,0.00,FY2022.pdf,477
 L2022-01423,2022,6,Sharpe,general_fund_discretionary,budget,,,,,General Fund Discretionary new budget,0.00,FY2022.pdf,478
@@ -1614,7 +1614,7 @@ L2023-01612,2023,4,Mackey,travel_discretionary,payment,travel_office,,"Local mil
 L2023-01613,2023,4,Mackey,travel_discretionary,payment,travel_office,,"Local mileage, meals and office expense, March 2023",,"Local mileage, meals and office expense, March 2023",-52.79,FY2023.pdf,320
 L2023-01614,2023,4,Mackey,travel_discretionary,payment,travel_office,,"Local mileage, meals and office expense, April 2023",,"Local mileage, meals and office expense, April 2023",-1283.03,FY2023.pdf,321
 L2023-01615,2023,4,Mackey,travel_discretionary,payment,travel_office,,"Local mileage, meals and office expense, May 2023",,"Local mileage, meals and office expense, May 2023",-1045.62,FY2023.pdf,322
-L2023-01616,2023,4,Mackey,travel_discretionary,payment,gift,G2023-D04-001,June 2023 Tennessee County Service,,June 2023 Tennessee County Service,-100.00,FY2023.pdf,324
+L2023-01616,2023,4,Mackey,travel_discretionary,payment,travel_office,,June 2023 Tennessee County Service,,June 2023 Tennessee County Service,-100.00,FY2023.pdf,324
 L2023-01617,2023,4,Mackey,travel_discretionary,payment,travel_office,,NABCO Membership,,NABCO Membership,-200.00,FY2023.pdf,325
 L2023-01618,2023,4,Mackey,travel_discretionary,payment,travel_office,,NABCO Conference Registration,,NABCO Conference Registration,-717.50,FY2023.pdf,327
 L2023-01619,2023,4,Mackey,travel_discretionary,payment,travel_office,,Flight,,Flight,-347.81,FY2023.pdf,328
@@ -1922,7 +1922,7 @@ L2024-01920,2024,3,Smith,travel_discretionary,payment,travel_office,,NACo,,NACo,
 L2024-01921,2024,3,Smith,travel_discretionary,payment,travel_office,,Travel Advance,NACo Legislative Conference,Travel Advance (NACo Legislative Conference),-355.50,FY2024.pdf,131
 L2024-01922,2024,3,Smith,travel_discretionary,payment,travel_office,,NACo,,NACo,-530.00,FY2024.pdf,132
 L2024-01923,2024,3,Smith,travel_discretionary,payment,travel_office,,Travel Reimbursement,NACo,Travel Reimbursement (NACo),-107.63,FY2024.pdf,133
-L2024-01924,2024,3,Smith,travel_discretionary,payment,gift,G2024-D03-003,The DuPont Circle,,The DuPont Circle,-1136.32,FY2024.pdf,134
+L2024-01924,2024,3,Smith,travel_discretionary,payment,travel_office,,The DuPont Circle,,The DuPont Circle,-1136.32,FY2024.pdf,134
 L2024-01925,2024,3,Smith,travel_discretionary,payment,travel_office,,Diversified Companies,,Diversified Companies,-98.00,FY2024.pdf,135
 L2024-01926,2024,3,Smith,travel_discretionary,payment,travel_office,,NACo,credit - unable to attend pending,NACo (credit - unable to attend) pending,530.00,FY2024.pdf,136
 L2024-01927,2024,3,Smith,travel_discretionary,payment,community_purchase,,Jack's,Hixson High Teacher Appreciation,Jack's (Hixson High Teacher Appreciation),-283.84,FY2024.pdf,137
@@ -2039,15 +2039,15 @@ L2024-02037,2024,5,Beck,travel_discretionary,payment,travel_office,,Office Depot
 L2024-02038,2024,5,Beck,travel_discretionary,payment,community_purchase,,Hobby Lobby,Easels Ramsey/Roberts event,Hobby Lobby (Easels Ramsey/Roberts event),-113.55,FY2024.pdf,342
 L2024-02039,2024,5,Beck,travel_discretionary,payment,community_purchase,,Walgreens,Senior Event,Walgreens (Senior Event),-99.38,FY2024.pdf,343
 L2024-02040,2024,5,Beck,travel_discretionary,payment,community_purchase,,Hobby Lobby,Senior Event,Hobby Lobby (Senior Event),-91.77,FY2024.pdf,344
-L2024-02041,2024,5,Beck,travel_discretionary,payment,travel_office,,Chattanooga Marriott,Singer for Senior Event,Chattanooga Marriott (Singer for Senior Event),-561.05,FY2024.pdf,345
-L2024-02042,2024,5,Beck,travel_discretionary,payment,travel_office,,Cracker Barrell,Singer - breakfast,Cracker Barrell (Singer - breakfast),-60.08,FY2024.pdf,346
-L2024-02043,2024,5,Beck,travel_discretionary,payment,travel_office,,Chattanooga Marriott,Singer's band,Chattanooga Marriott (Singer's band),-537.01,FY2024.pdf,347
+L2024-02041,2024,5,Beck,travel_discretionary,payment,community_purchase,,Chattanooga Marriott,Singer for Senior Event,Chattanooga Marriott (Singer for Senior Event),-561.05,FY2024.pdf,345
+L2024-02042,2024,5,Beck,travel_discretionary,payment,community_purchase,,Cracker Barrell,Singer - breakfast,Cracker Barrell (Singer - breakfast),-60.08,FY2024.pdf,346
+L2024-02043,2024,5,Beck,travel_discretionary,payment,community_purchase,,Chattanooga Marriott,Singer's band,Chattanooga Marriott (Singer's band),-537.01,FY2024.pdf,347
 L2024-02044,2024,5,Beck,travel_discretionary,payment,travel_office,,Rent,November,Rent (November),-500.00,FY2024.pdf,348
 L2024-02045,2024,5,Beck,travel_discretionary,payment,travel_office,,Rent,December,Rent (December),-500.00,FY2024.pdf,349
 L2024-02046,2024,5,Beck,travel_discretionary,payment,gift,G2024-D05-002,Sale Creek High School,Girls Volleyball Championship rings,Sale Creek High School (Girls Volleyball Championship rings),-1000.00,FY2024.pdf,350
 L2024-02047,2024,5,Beck,travel_discretionary,payment,travel_office,,Rent,January,Rent (January),-500.00,FY2024.pdf,351
-L2024-02048,2024,5,Beck,travel_discretionary,payment,gift,G2024-D05-003,David Moore,Senior Night Out DVDs,David Moore (Senior Night Out DVDs),-70.00,FY2024.pdf,352
-L2024-02049,2024,5,Beck,travel_discretionary,payment,travel_office,,Advantage Printing,One way door cling for MOMs program,Advantage Printing (One way door cling for MOMs program),-213.04,FY2024.pdf,353
+L2024-02048,2024,5,Beck,travel_discretionary,payment,community_purchase,,David Moore,Senior Night Out DVDs,David Moore (Senior Night Out DVDs),-70.00,FY2024.pdf,352
+L2024-02049,2024,5,Beck,travel_discretionary,payment,community_purchase,,Advantage Printing,One way door cling for MOMs program,Advantage Printing (One way door cling for MOMs program),-213.04,FY2024.pdf,353
 L2024-02050,2024,5,Beck,travel_discretionary,payment,travel_office,,Rent,February,Rent (February),-500.00,FY2024.pdf,354
 L2024-02051,2024,5,Beck,travel_discretionary,payment,travel_office,,Tennessee County Services,County Government Day,Tennessee County Services (County Government Day),-100.00,FY2024.pdf,355
 L2024-02052,2024,5,Beck,travel_discretionary,payment,travel_office,,Rent,March,Rent (March),-500.00,FY2024.pdf,356
@@ -2095,7 +2095,7 @@ L2024-02093,2024,7,Helton,travel_discretionary,payment,travel_office,,Travel Adv
 L2024-02094,2024,7,Helton,travel_discretionary,payment,travel_office,,Travel Advance,TCSA County Government Day,Travel Advance (TCSA County Government Day),-356.48,FY2024.pdf,445
 L2024-02095,2024,7,Helton,travel_discretionary,payment,travel_office,,NACo,,NACo,-530.00,FY2024.pdf,446
 L2024-02096,2024,7,Helton,travel_discretionary,payment,travel_office,,Tennessee County Services,County Government Day,Tennessee County Services (County Government Day),-100.00,FY2024.pdf,447
-L2024-02097,2024,7,Helton,travel_discretionary,payment,gift,G2024-D07-005,The DuPont Circle,,The DuPont Circle,-1136.32,FY2024.pdf,448
+L2024-02097,2024,7,Helton,travel_discretionary,payment,travel_office,,The DuPont Circle,,The DuPont Circle,-1136.32,FY2024.pdf,448
 L2024-02098,2024,7,Helton,travel_discretionary,payment,travel_office,,Doubletree,,Doubletree,-605.06,FY2024.pdf,449
 L2024-02099,2024,7,Helton,travel_discretionary,payment,travel_office,,Tennessee County Services,2024 TCSA Legislative Conference,Tennessee County Services (2024 TCSA Legislative Conference),-175.00,FY2024.pdf,450
 L2024-02100,2024,7,Helton,travel_discretionary,payment,travel_office,,Mileage,January,Mileage (January),-121.27,FY2024.pdf,451
@@ -2107,7 +2107,7 @@ L2024-02105,2024,7,Helton,travel_discretionary,payment,travel_office,,Travel Adv
 L2024-02106,2024,7,Helton,travel_discretionary,payment,travel_office,,Travel Advance,2024 TCSA Legislative Conference voided,Travel Advance (2024 TCSA Legislative Conference) voided,376.14,FY2024.pdf,457
 L2024-02107,2024,7,Helton,travel_discretionary,payment,travel_office,,Travel Advance,2024 TCSA Legislative Conference voided,Travel Advance (2024 TCSA Legislative Conference) voided,376.14,FY2024.pdf,458
 L2024-02108,2024,7,Helton,travel_discretionary,payment,travel_office,,Travel Advance,2024 TCSA Legislative Conference,Travel Advance (2024 TCSA Legislative Conference),-317.14,FY2024.pdf,459
-L2024-02109,2024,7,Helton,travel_discretionary,payment,gift,G2024-D07-006,East Hamilton Middle High School,programming and purchase of supplies,East Hamilton Middle High School (programming and purchase of supplies),-3250.00,FY2024.pdf,460
+L2024-02109,2024,7,Helton,travel_discretionary,payment,gift,G2024-D07-005,East Hamilton Middle High School,programming and purchase of supplies,East Hamilton Middle High School (programming and purchase of supplies),-3250.00,FY2024.pdf,460
 L2024-02110,2024,7,Helton,travel_discretionary,payment,travel_office,,Bearskin Lodge,2024 TCSA Legislative Conference,Bearskin Lodge (2024 TCSA Legislative Conference),-258.00,FY2024.pdf,461
 L2024-02111,2024,7,Helton,travel_discretionary,payment,travel_office,,Travel Advance,NACo Annual Conference,Travel Advance (NACo Annual Conference),-1051.94,FY2024.pdf,462
 L2024-02112,2024,7,Helton,travel_discretionary,payment,travel_office,,Move overage to FY 24-25 Discretionary monies,,Move overage to FY 24-25 Discretionary monies,55.94,FY2024.pdf,463
@@ -2481,7 +2481,7 @@ L2025-02479,2025,7,Helton,travel_discretionary,payment,travel_office,,Mileage,Au
 L2025-02480,2025,7,Helton,travel_discretionary,payment,travel_office,,Mileage,September,Mileage (September),-154.77,FY2025.pdf,418
 L2025-02481,2025,7,Helton,travel_discretionary,payment,travel_office,,Mileage,October,Mileage (October),-153.43,FY2025.pdf,419
 L2025-02482,2025,7,Helton,travel_discretionary,payment,travel_office,,Travel Advance,CCFO training - cancelled,Travel Advance (CCFO training) - cancelled,311.46,FY2025.pdf,420
-L2025-02483,2025,7,Helton,travel_discretionary,payment,travel_office,,Chick Fil A,East Hamilton Football playoff meal,Chick Fil A (East Hamilton Football playoff meal),-611.14,FY2025.pdf,421
+L2025-02483,2025,7,Helton,travel_discretionary,payment,community_purchase,,Chick Fil A,East Hamilton Football playoff meal,Chick Fil A (East Hamilton Football playoff meal),-611.14,FY2025.pdf,421
 L2025-02484,2025,7,Helton,travel_discretionary,payment,travel_office,,Chick Fil A,HR Lunch,Chick Fil A (HR Lunch),-300.33,FY2025.pdf,422
 L2025-02485,2025,7,Helton,travel_discretionary,payment,travel_office,,NACo,,NACo,-530.00,FY2025.pdf,423
 L2025-02486,2025,7,Helton,travel_discretionary,payment,community_purchase,,BoJangles,Breakfast for East Hamilton High teachers,BoJangles (Breakfast for East Hamilton High teachers),-411.87,FY2025.pdf,424
@@ -2532,12 +2532,12 @@ L2025-02530,2025,8,Chauncey,travel_discretionary,payment,travel_office,,NACo,,NA
 L2025-02531,2025,8,Chauncey,travel_discretionary,payment,travel_office,,Paypal *tcsa,,Paypal *tcsa,-225.00,FY2025.pdf,486
 L2025-02532,2025,8,Chauncey,travel_discretionary,payment,travel_office,,Travel Advance,2025 TCSA Legislative Conference,Travel Advance (2025 TCSA Legislative Conference),-394.60,FY2025.pdf,487
 L2025-02533,2025,8,Chauncey,travel_discretionary,payment,travel_office,,Doubletree,2025 TCSA Legislative Conference,Doubletree (2025 TCSA Legislative Conference),-435.00,FY2025.pdf,488
-L2025-02534,2025,8,Chauncey,travel_discretionary,payment,gift,G2025-D08-001,Fireflys,,Fireflys,-67.40,FY2025.pdf,489
+L2025-02534,2025,8,Chauncey,travel_discretionary,payment,travel_office,,Fireflys,,Fireflys,-67.40,FY2025.pdf,489
 L2025-02535,2025,8,Chauncey,travel_discretionary,payment,travel_office,,Travel Reimbursement,2025 TCSA Legislative Conference,Travel Reimbursement (2025 TCSA Legislative Conference),67.40,FY2025.pdf,490
-L2025-02536,2025,8,Chauncey,travel_discretionary,payment,gift,G2025-D08-002,East Ridge Animal Shelter,assist with programming,East Ridge Animal Shelter (assist with programming),-1000.00,FY2025.pdf,491
-L2025-02537,2025,8,Chauncey,travel_discretionary,payment,gift,G2025-D08-003,East Ridge Needy Child Fund,assist with programming,East Ridge Needy Child Fund (assist with programming),-1000.00,FY2025.pdf,492
-L2025-02538,2025,8,Chauncey,travel_discretionary,payment,gift,G2025-D08-004,Spring Creek Elementary School,3 Port-a-Cool portable air conditioning units,Spring Creek Elementary School (3 Port-a-Cool portable air conditioning units),-3000.00,FY2025.pdf,493
-L2025-02539,2025,8,Chauncey,travel_discretionary,payment,gift,G2025-D08-005,East Ridge Community Food Pantry,programming,East Ridge Community Food Pantry (programming),-1000.00,FY2025.pdf,494
+L2025-02536,2025,8,Chauncey,travel_discretionary,payment,gift,G2025-D08-001,East Ridge Animal Shelter,assist with programming,East Ridge Animal Shelter (assist with programming),-1000.00,FY2025.pdf,491
+L2025-02537,2025,8,Chauncey,travel_discretionary,payment,gift,G2025-D08-002,East Ridge Needy Child Fund,assist with programming,East Ridge Needy Child Fund (assist with programming),-1000.00,FY2025.pdf,492
+L2025-02538,2025,8,Chauncey,travel_discretionary,payment,gift,G2025-D08-003,Spring Creek Elementary School,3 Port-a-Cool portable air conditioning units,Spring Creek Elementary School (3 Port-a-Cool portable air conditioning units),-3000.00,FY2025.pdf,493
+L2025-02539,2025,8,Chauncey,travel_discretionary,payment,gift,G2025-D08-004,East Ridge Community Food Pantry,programming,East Ridge Community Food Pantry (programming),-1000.00,FY2025.pdf,494
 L2025-02540,2025,8,Chauncey,travel_discretionary,payment,travel_office,,Mileage,January,Mileage (January),-103.52,FY2025.pdf,495
 L2025-02541,2025,8,Chauncey,travel_discretionary,payment,travel_office,,Mileage,February,Mileage (February),-176.40,FY2025.pdf,496
 L2025-02542,2025,8,Chauncey,travel_discretionary,payment,travel_office,,Mileage,March,Mileage (March),-147.00,FY2025.pdf,497
@@ -2553,7 +2553,7 @@ L2025-02551,2025,8,Chauncey,travel_discretionary,ending_balance,,,,,Ending Balan
 L2025-02552,2025,9,Highlander,travel_discretionary,budget,,,,,Original Budget - FY 24-25,15000.00,FY2025.pdf,519
 L2025-02553,2025,9,Highlander,travel_discretionary,payment,travel_office,,Murfreesboro Embassy Suites,,Murfreesboro Embassy Suites,-189.00,FY2025.pdf,522
 L2025-02554,2025,9,Highlander,travel_discretionary,payment,travel_office,,Tennessee County Services Association,2024 Fall Conference,Tennessee County Services Association (2024 Fall Conference),-375.00,FY2025.pdf,523
-L2025-02555,2025,9,Highlander,travel_discretionary,payment,gift,G2025-D09-001,Time Free Press,Highway 58 - correct invoice,Time Free Press (Highway 58 - correct invoice),-51.50,FY2025.pdf,524
+L2025-02555,2025,9,Highlander,travel_discretionary,payment,travel_office,,Time Free Press,Highway 58 - correct invoice,Time Free Press (Highway 58 - correct invoice),-51.50,FY2025.pdf,524
 L2025-02556,2025,9,Highlander,travel_discretionary,payment,community_purchase,,Hogeye Inc,custom coins,Hogeye Inc (custom coins),-591.00,FY2025.pdf,525
 L2025-02557,2025,9,Highlander,travel_discretionary,payment,travel_office,,Travel Advance,2024 TCSA Fall Conference,Travel Advance (2024 TCSA Fall Conference),-340.18,FY2025.pdf,526
 L2025-02558,2025,9,Highlander,travel_discretionary,payment,travel_office,,Murfreesboro Embassy Suites,,Murfreesboro Embassy Suites,-263.66,FY2025.pdf,527
@@ -2563,25 +2563,25 @@ L2025-02561,2025,9,Highlander,travel_discretionary,payment,travel_office,,Paypal
 L2025-02562,2025,9,Highlander,travel_discretionary,payment,travel_office,,Diversified Companies,business cards,Diversified Companies (business cards),-98.00,FY2025.pdf,531
 L2025-02563,2025,9,Highlander,travel_discretionary,payment,travel_office,,Travel Advance,2025 TCSA Legislative Conference,Travel Advance (2025 TCSA Legislative Conference),-315.40,FY2025.pdf,532
 L2025-02564,2025,9,Highlander,travel_discretionary,payment,travel_office,,Doubletree,2025 TCSA Legislative Conference,Doubletree (2025 TCSA Legislative Conference),-290.00,FY2025.pdf,533
-L2025-02565,2025,9,Highlander,travel_discretionary,payment,gift,G2025-D09-002,Brown Middle School,equipment for wrestling team,Brown Middle School (equipment for wrestling team),-1000.00,FY2025.pdf,534
-L2025-02566,2025,9,Highlander,travel_discretionary,payment,gift,G2025-D09-003,Central High School,equipment for wrestling team,Central High School (equipment for wrestling team),-1000.00,FY2025.pdf,535
-L2025-02567,2025,9,Highlander,travel_discretionary,payment,gift,G2025-D09-004,Hunter Middle School,equipment for wrestling team,Hunter Middle School (equipment for wrestling team),-1000.00,FY2025.pdf,536
-L2025-02568,2025,9,Highlander,travel_discretionary,payment,gift,G2025-D09-005,Ooltewah High School,equipment for wrestling team,Ooltewah High School (equipment for wrestling team),-1000.00,FY2025.pdf,537
-L2025-02569,2025,9,Highlander,travel_discretionary,payment,gift,G2025-D09-006,Harrison Elementary School,assist with programming,Harrison Elementary School (assist with programming),-1000.00,FY2025.pdf,538
-L2025-02570,2025,9,Highlander,travel_discretionary,payment,gift,G2025-D09-007,Wallace A. Smith Elementary,assist with programming,Wallace A. Smith Elementary (assist with programming),-1000.00,FY2025.pdf,539
-L2025-02571,2025,9,Highlander,travel_discretionary,payment,gift,G2025-D09-008,Ooltewah Elementary School,assist with programming,Ooltewah Elementary School (assist with programming),-1000.00,FY2025.pdf,540
-L2025-02572,2025,9,Highlander,travel_discretionary,payment,gift,G2025-D09-009,Snow Hill Elementary School,assist with programming,Snow Hill Elementary School (assist with programming),-1000.00,FY2025.pdf,541
-L2025-02573,2025,9,Highlander,travel_discretionary,payment,gift,G2025-D09-010,Hamilton County STARS,purchase of equipment,Hamilton County STARS (purchase of equipment),-1000.00,FY2025.pdf,542
-L2025-02574,2025,9,Highlander,travel_discretionary,payment,gift,G2025-D09-011,Highway 58 Volunteer Fire Department,purchase of equipment,Highway 58 Volunteer Fire Department (purchase of equipment),-1000.00,FY2025.pdf,543
-L2025-02575,2025,9,Highlander,travel_discretionary,payment,gift,G2025-D09-012,Hamilton County Schools Fund for Excellence,assist with school grants,Hamilton County Schools Fund for Excellence (assist with school grants),-1000.00,FY2025.pdf,544
-L2025-02576,2025,9,Highlander,travel_discretionary,payment,gift,G2025-D09-013,Snow Hill Recreation League,equipment purchase,Snow Hill Recreation League (equipment purchase),-1000.00,FY2025.pdf,545
-L2025-02577,2025,9,Highlander,travel_discretionary,payment,gift,G2025-D09-014,Time Free Press,Highway 58 VFD,Time Free Press (Highway 58 VFD),-48.30,FY2025.pdf,546
+L2025-02565,2025,9,Highlander,travel_discretionary,payment,gift,G2025-D09-001,Brown Middle School,equipment for wrestling team,Brown Middle School (equipment for wrestling team),-1000.00,FY2025.pdf,534
+L2025-02566,2025,9,Highlander,travel_discretionary,payment,gift,G2025-D09-002,Central High School,equipment for wrestling team,Central High School (equipment for wrestling team),-1000.00,FY2025.pdf,535
+L2025-02567,2025,9,Highlander,travel_discretionary,payment,gift,G2025-D09-003,Hunter Middle School,equipment for wrestling team,Hunter Middle School (equipment for wrestling team),-1000.00,FY2025.pdf,536
+L2025-02568,2025,9,Highlander,travel_discretionary,payment,gift,G2025-D09-004,Ooltewah High School,equipment for wrestling team,Ooltewah High School (equipment for wrestling team),-1000.00,FY2025.pdf,537
+L2025-02569,2025,9,Highlander,travel_discretionary,payment,gift,G2025-D09-005,Harrison Elementary School,assist with programming,Harrison Elementary School (assist with programming),-1000.00,FY2025.pdf,538
+L2025-02570,2025,9,Highlander,travel_discretionary,payment,gift,G2025-D09-006,Wallace A. Smith Elementary,assist with programming,Wallace A. Smith Elementary (assist with programming),-1000.00,FY2025.pdf,539
+L2025-02571,2025,9,Highlander,travel_discretionary,payment,gift,G2025-D09-007,Ooltewah Elementary School,assist with programming,Ooltewah Elementary School (assist with programming),-1000.00,FY2025.pdf,540
+L2025-02572,2025,9,Highlander,travel_discretionary,payment,gift,G2025-D09-008,Snow Hill Elementary School,assist with programming,Snow Hill Elementary School (assist with programming),-1000.00,FY2025.pdf,541
+L2025-02573,2025,9,Highlander,travel_discretionary,payment,gift,G2025-D09-009,Hamilton County STARS,purchase of equipment,Hamilton County STARS (purchase of equipment),-1000.00,FY2025.pdf,542
+L2025-02574,2025,9,Highlander,travel_discretionary,payment,gift,G2025-D09-010,Highway 58 Volunteer Fire Department,purchase of equipment,Highway 58 Volunteer Fire Department (purchase of equipment),-1000.00,FY2025.pdf,543
+L2025-02575,2025,9,Highlander,travel_discretionary,payment,gift,G2025-D09-011,Hamilton County Schools Fund for Excellence,assist with school grants,Hamilton County Schools Fund for Excellence (assist with school grants),-1000.00,FY2025.pdf,544
+L2025-02576,2025,9,Highlander,travel_discretionary,payment,gift,G2025-D09-012,Snow Hill Recreation League,equipment purchase,Snow Hill Recreation League (equipment purchase),-1000.00,FY2025.pdf,545
+L2025-02577,2025,9,Highlander,travel_discretionary,payment,travel_office,,Time Free Press,Highway 58 VFD,Time Free Press (Highway 58 VFD),-48.30,FY2025.pdf,546
 L2025-02578,2025,9,Highlander,travel_discretionary,total_expenses,,,,,Total Expenses FY 24-25,-14561.18,FY2025.pdf,551
 L2025-02579,2025,9,Highlander,travel_discretionary,ending_balance,,,,,Ending Balance (will not roll over),438.82,FY2025.pdf,554
 L2025-02580,2025,9,Highlander,general_fund_discretionary,carryover,,,,,Rollover from prior FY,780.11,FY2025.pdf,561
 L2025-02581,2025,9,Highlander,general_fund_discretionary,carryover,,,,,Rollover from FY19,0.00,FY2025.pdf,562
 L2025-02582,2025,9,Highlander,general_fund_discretionary,beginning_balance,,,,,Balance Forward from FY 24,780.11,FY2025.pdf,563
-L2025-02583,2025,9,Highlander,general_fund_discretionary,payment,gift,G2025-D09-012,Hamilton County Schools Fund for Excellence,assist with school grants,Hamilton County Schools Fund for Excellence (assist with school grants),-780.11,FY2025.pdf,566
+L2025-02583,2025,9,Highlander,general_fund_discretionary,payment,gift,G2025-D09-011,Hamilton County Schools Fund for Excellence,assist with school grants,Hamilton County Schools Fund for Excellence (assist with school grants),-780.11,FY2025.pdf,566
 L2025-02584,2025,9,Highlander,general_fund_discretionary,total_expenses,,,,,Total Expenses,-780.11,FY2025.pdf,569
 L2025-02585,2025,9,Highlander,general_fund_discretionary,ending_balance,,,,,Remaining Budget for FY 25,0.00,FY2025.pdf,572
 L2025-02586,2025,10,Eversole,travel_discretionary,budget,,,,,Original Budget - FY 24-25,15000.00,FY2025.pdf,582
@@ -2927,26 +2927,26 @@ L2026-02925,2026,10,Eversole,travel_discretionary,payment,travel_office,,Mileage
 L2026-02926,2026,10,Eversole,travel_discretionary,payment,travel_office,,Mileage,November,Mileage (November),-230.30,FY2026.pdf,438
 L2026-02927,2026,10,Eversole,travel_discretionary,payment,travel_office,,Tennessee County Services Association,2026 TCSA County Government Day,Tennessee County Services Association (2026 TCSA County Government Day),-125.00,FY2026.pdf,439
 L2026-02928,2026,10,Eversole,travel_discretionary,payment,travel_office,,Mileage,December,Mileage (December),-379.40,FY2026.pdf,440
-L2026-02929,2026,10,Eversole,travel_discretionary,payment,gift,G2026-D10-002,Parkmobile,,Parkmobile,-3.95,FY2026.pdf,441
+L2026-02929,2026,10,Eversole,travel_discretionary,payment,travel_office,,Parkmobile,,Parkmobile,-3.95,FY2026.pdf,441
 L2026-02930,2026,10,Eversole,travel_discretionary,payment,travel_office,,JCB,Parking,JCB (Parking),-7.00,FY2026.pdf,442
 L2026-02931,2026,10,Eversole,travel_discretionary,payment,travel_office,,Travel advance,2026 TCSA Government Day - Nashville,Travel advance (2026 TCSA Government Day) - Nashville,-332.45,FY2026.pdf,443
 L2026-02932,2026,10,Eversole,travel_discretionary,payment,community_purchase,,Wal-mart,frames for certificates,Wal-mart (frames for certificates),-19.41,FY2026.pdf,444
 L2026-02933,2026,10,Eversole,travel_discretionary,payment,community_purchase,,Wal-mart,frames for certificates,Wal-mart (frames for certificates),-19.41,FY2026.pdf,445
 L2026-02934,2026,10,Eversole,travel_discretionary,payment,travel_office,,Mileage,January,Mileage (January),-197.20,FY2026.pdf,446
 L2026-02935,2026,10,Eversole,travel_discretionary,payment,travel_office,,Mileage,February,Mileage (February),-269.70,FY2026.pdf,447
-L2026-02936,2026,10,Eversole,travel_discretionary,payment,gift,G2026-D10-003,Parkmobile,Meeting with Bob Corker,Parkmobile (Meeting with Bob Corker),-3.95,FY2026.pdf,448
-L2026-02937,2026,10,Eversole,travel_discretionary,payment,gift,G2026-D10-004,Parkmobile,Leadership Chattanooga,Parkmobile (Leadership Chattanooga),-2.90,FY2026.pdf,449
-L2026-02938,2026,10,Eversole,travel_discretionary,payment,gift,G2026-D10-005,Parkmobile,Economic Outlook,Parkmobile (Economic Outlook),-10.40,FY2026.pdf,450
+L2026-02936,2026,10,Eversole,travel_discretionary,payment,travel_office,,Parkmobile,Meeting with Bob Corker,Parkmobile (Meeting with Bob Corker),-3.95,FY2026.pdf,448
+L2026-02937,2026,10,Eversole,travel_discretionary,payment,travel_office,,Parkmobile,Leadership Chattanooga,Parkmobile (Leadership Chattanooga),-2.90,FY2026.pdf,449
+L2026-02938,2026,10,Eversole,travel_discretionary,payment,travel_office,,Parkmobile,Economic Outlook,Parkmobile (Economic Outlook),-10.40,FY2026.pdf,450
 L2026-02939,2026,10,Eversole,travel_discretionary,payment,travel_office,,Travel reimbursement,2026 TCSA Government Day - Nashville,Travel reimbursement (2026 TCSA Government Day) - Nashville,-117.45,FY2026.pdf,451
 L2026-02940,2026,10,Eversole,travel_discretionary,payment,travel_office,,Doubletree,2026 TCSA Government Day,Doubletree (2026 TCSA Government Day),-516.46,FY2026.pdf,452
-L2026-02941,2026,10,Eversole,travel_discretionary,payment,gift,G2026-D10-006,Parkmobile,Meeting with Darak Dawes,Parkmobile (Meeting with Darak Dawes),-4.45,FY2026.pdf,453
+L2026-02941,2026,10,Eversole,travel_discretionary,payment,travel_office,,Parkmobile,Meeting with Darak Dawes,Parkmobile (Meeting with Darak Dawes),-4.45,FY2026.pdf,453
 L2026-02942,2026,10,Eversole,travel_discretionary,payment,travel_office,,Mileage,March,Mileage (March),-241.43,FY2026.pdf,454
 L2026-02943,2026,10,Eversole,travel_discretionary,payment,travel_office,,Diversified Companies,business cards and stationary,Diversified Companies (business cards and stationary),-608.00,FY2026.pdf,455
-L2026-02944,2026,10,Eversole,travel_discretionary,payment,gift,G2026-D10-007,Hamilton County STARS,assist with fuel costs,Hamilton County STARS (assist with fuel costs),-1500.00,FY2026.pdf,456
-L2026-02945,2026,10,Eversole,travel_discretionary,payment,gift,G2026-D10-008,Highway 58 VFD,assist with fuel costs,Highway 58 VFD (assist with fuel costs),-2000.00,FY2026.pdf,457
-L2026-02946,2026,10,Eversole,travel_discretionary,payment,gift,G2026-D10-009,Ooltewah High School,assist with purchase of weights for workout room,Ooltewah High School (assist with purchase of weights for workout room),-2000.00,FY2026.pdf,458
-L2026-02947,2026,10,Eversole,travel_discretionary,payment,gift,G2026-D10-010,Ooltewah High School,assist with programming for cheerleaders,Ooltewah High School (assist with programming for cheerleaders),-1500.00,FY2026.pdf,459
-L2026-02948,2026,10,Eversole,travel_discretionary,payment,gift,G2026-D10-011,Tri-Community VFD,assist with fuel costs,Tri-Community VFD (assist with fuel costs),-2000.00,FY2026.pdf,460
+L2026-02944,2026,10,Eversole,travel_discretionary,payment,gift,G2026-D10-002,Hamilton County STARS,assist with fuel costs,Hamilton County STARS (assist with fuel costs),-1500.00,FY2026.pdf,456
+L2026-02945,2026,10,Eversole,travel_discretionary,payment,gift,G2026-D10-003,Highway 58 VFD,assist with fuel costs,Highway 58 VFD (assist with fuel costs),-2000.00,FY2026.pdf,457
+L2026-02946,2026,10,Eversole,travel_discretionary,payment,gift,G2026-D10-004,Ooltewah High School,assist with purchase of weights for workout room,Ooltewah High School (assist with purchase of weights for workout room),-2000.00,FY2026.pdf,458
+L2026-02947,2026,10,Eversole,travel_discretionary,payment,gift,G2026-D10-005,Ooltewah High School,assist with programming for cheerleaders,Ooltewah High School (assist with programming for cheerleaders),-1500.00,FY2026.pdf,459
+L2026-02948,2026,10,Eversole,travel_discretionary,payment,gift,G2026-D10-006,Tri-Community VFD,assist with fuel costs,Tri-Community VFD (assist with fuel costs),-2000.00,FY2026.pdf,460
 L2026-02949,2026,10,Eversole,travel_discretionary,payment,travel_office,,Paypal,TCSA,Paypal (TCSA),-250.00,FY2026.pdf,461
 L2026-02950,2026,10,Eversole,travel_discretionary,payment,travel_office,,Travel advance,2026 TCSA Legislative Conference - Gatlinburg,Travel advance (2026 TCSA Legislative Conference) - Gatlinburg,-429.40,FY2026.pdf,462
 L2026-02951,2026,10,Eversole,travel_discretionary,payment,travel_office,,Doubletree,2026 TCSA Legislative Conference,Doubletree (2026 TCSA Legislative Conference),-630.00,FY2026.pdf,463
@@ -3060,24 +3060,24 @@ L2027-03058,2027,7,Helton,travel_discretionary,payment,community_purchase,,Wal-M
 L2027-03059,2027,7,Helton,travel_discretionary,payment,community_purchase,,Jim N Nicks BBQ,East Hamilton Football team meal,Jim N Nicks BBQ (East Hamilton Football team meal),-237.83,FY2027.pdf,194
 L2027-03060,2027,7,Helton,travel_discretionary,payment,community_purchase,,Wal-Mart,East Hamilton Football team meal,Wal-Mart (East Hamilton Football team meal),-56.32,FY2027.pdf,195
 L2027-03061,2027,7,Helton,travel_discretionary,payment,community_purchase,,Chick Fil A,East Hamilton Football team meal,Chick Fil A (East Hamilton Football team meal),-419.79,FY2027.pdf,196
-L2027-03062,2027,7,Helton,travel_discretionary,payment,travel_office,,Olive Garden,East Hamilton Football team meal,Olive Garden (East Hamilton Football team meal),-1068.22,FY2027.pdf,197
+L2027-03062,2027,7,Helton,travel_discretionary,payment,community_purchase,,Olive Garden,East Hamilton Football team meal,Olive Garden (East Hamilton Football team meal),-1068.22,FY2027.pdf,197
 L2027-03063,2027,7,Helton,travel_discretionary,payment,travel_office,,NACo,,NACo,-599.00,FY2027.pdf,198
 L2027-03064,2027,7,Helton,travel_discretionary,payment,travel_office,,NACo,refund,NACo - refund,599.00,FY2027.pdf,199
 L2027-03065,2027,7,Helton,travel_discretionary,payment,gift,G2027-D07-004,Red Bank Band Boosters,assist with band trip to Fiesta Bowl,Red Bank Band Boosters (assist with band trip to Fiesta Bowl),-500.00,FY2027.pdf,200
 L2027-03066,2027,7,Helton,travel_discretionary,total_expenses,,,,,Total Expenses FY 26-27,-9312.56,FY2027.pdf,205
 L2027-03067,2027,7,Helton,travel_discretionary,ending_balance,,,,,Ending Balance (will not roll over),8187.44,FY2027.pdf,208
 L2027-03068,2027,8,Chauncey / Wichman,travel_discretionary,budget,,,,,Original Budget - FY 26-27,17500.00,FY2027.pdf,218
-L2027-03069,2027,8,Chauncey / Wichman,travel_discretionary,payment,gift,G2027-D08-001,Xfininty,July,Xfininty - July,-93.00,FY2027.pdf,221
-L2027-03070,2027,8,Chauncey / Wichman,travel_discretionary,payment,gift,G2027-D08-002,Xfininty,August,Xfininty - August,-95.00,FY2027.pdf,222
+L2027-03069,2027,8,Chauncey / Wichman,travel_discretionary,payment,travel_office,,Xfininty,July,Xfininty - July,-93.00,FY2027.pdf,221
+L2027-03070,2027,8,Chauncey / Wichman,travel_discretionary,payment,travel_office,,Xfininty,August,Xfininty - August,-95.00,FY2027.pdf,222
 L2027-03071,2027,8,Chauncey / Wichman,travel_discretionary,payment,travel_office,,Mileage,July,Mileage - July,-182.40,FY2027.pdf,223
 L2027-03072,2027,8,Chauncey / Wichman,travel_discretionary,payment,travel_office,,Mileage,August,Mileage - August,-414.20,FY2027.pdf,224
 L2027-03073,2027,8,Chauncey / Wichman,travel_discretionary,payment,travel_office,,Parking,July,Parking - July,-6.00,FY2027.pdf,225
 L2027-03074,2027,8,Chauncey / Wichman,travel_discretionary,payment,travel_office,,Mileage - August,CTAS - Wichman,Mileage - August (CTAS - Wichman),-162.64,FY2027.pdf,228
 L2027-03075,2027,8,Chauncey / Wichman,travel_discretionary,payment,travel_office,,Drakes Restaurant,,Drakes Restaurant,-41.50,FY2027.pdf,229
-L2027-03076,2027,8,Chauncey / Wichman,travel_discretionary,payment,gift,G2027-D08-003,Dos Bros,,Dos Bros,-15.61,FY2027.pdf,230
+L2027-03076,2027,8,Chauncey / Wichman,travel_discretionary,payment,travel_office,,Dos Bros,,Dos Bros,-15.61,FY2027.pdf,230
 L2027-03077,2027,8,Chauncey / Wichman,travel_discretionary,payment,travel_office,,Hyatt Place - Murfreesboro,CTAS,Hyatt Place - Murfreesboro (CTAS),-138.91,FY2027.pdf,231
 L2027-03078,2027,8,Chauncey / Wichman,travel_discretionary,payment,travel_office,,Verizon,iPad Air 11-inch (M4) 256,Verizon (iPad Air 11-inch (M4) 256),-899.99,FY2027.pdf,232
-L2027-03079,2027,8,Chauncey / Wichman,travel_discretionary,committed,gift,G2027-D08-004,Midtown Connect,assist with Fall Festival committed,Midtown Connect (assist with Fall Festival) committed,-500.00,FY2027.pdf,233
+L2027-03079,2027,8,Chauncey / Wichman,travel_discretionary,committed,gift,G2027-D08-001,Midtown Connect,assist with Fall Festival committed,Midtown Connect (assist with Fall Festival) committed,-500.00,FY2027.pdf,233
 L2027-03080,2027,8,Chauncey / Wichman,travel_discretionary,payment,travel_office,,TCSA,2026 Fall Conference,TCSA (2026 Fall Conference),-400.00,FY2027.pdf,234
 L2027-03081,2027,8,Chauncey / Wichman,travel_discretionary,payment,travel_office,,Travel advance,2026 TCSA Fall Conference,Travel advance (2026 TCSA Fall Conference),-335.68,FY2027.pdf,235
 L2027-03082,2027,8,Chauncey / Wichman,travel_discretionary,payment,travel_office,,Diversified Companies,business cards & letterhead,Diversified Companies (business cards & letterhead),-244.00,FY2027.pdf,236
@@ -3101,15 +3101,15 @@ L2027-03099,2027,10,Eversole,travel_discretionary,payment,travel_office,,Mileage
 L2027-03100,2027,10,Eversole,travel_discretionary,payment,community_purchase,,Brainerd Trophy Shop,,Brainerd Trophy Shop,-90.63,FY2027.pdf,288
 L2027-03101,2027,10,Eversole,travel_discretionary,payment,gift,G2027-D10-001,Ooltewah High School,assist with improvements to girls athletic locker room,Ooltewah High School (assist with improvements to girls athletic locker room),-1000.00,FY2027.pdf,289
 L2027-03102,2027,10,Eversole,travel_discretionary,payment,travel_office,,Mileage,August,Mileage - August,-103.36,FY2027.pdf,290
-L2027-03103,2027,10,Eversole,travel_discretionary,payment,gift,G2027-D10-002,GT Distributors,Pocket Name Plate Badge,GT Distributors (Pocket Name Plate Badge),-230.42,FY2027.pdf,291
+L2027-03103,2027,10,Eversole,travel_discretionary,payment,travel_office,,GT Distributors,Pocket Name Plate Badge,GT Distributors (Pocket Name Plate Badge),-230.42,FY2027.pdf,291
 L2027-03104,2027,10,Eversole,travel_discretionary,payment,community_purchase,,Hogeye Inc,challenge coins for First Responders,Hogeye Inc (challenge coins for First Responders),-731.25,FY2027.pdf,292
 L2027-03105,2027,10,Eversole,travel_discretionary,payment,travel_office,,Travel advance,2026 TCSA Fall Conference,Travel advance (2026 TCSA Fall Conference),-372.16,FY2027.pdf,293
 L2027-03106,2027,10,Eversole,travel_discretionary,payment,travel_office,,Mileage,September,Mileage - September,-54.72,FY2027.pdf,294
-L2027-03107,2027,10,Eversole,travel_discretionary,payment,gift,G2027-D10-003,Ooltewah High School,assist purchase of memorial plaque,Ooltewah High School (assist purchase of memorial plaque),-2500.00,FY2027.pdf,295
+L2027-03107,2027,10,Eversole,travel_discretionary,payment,gift,G2027-D10-002,Ooltewah High School,assist purchase of memorial plaque,Ooltewah High School (assist purchase of memorial plaque),-2500.00,FY2027.pdf,295
 L2027-03108,2027,10,Eversole,travel_discretionary,payment,travel_office,,Mileage,October,Mileage - October,-316.16,FY2027.pdf,296
 L2027-03109,2027,10,Eversole,travel_discretionary,payment,travel_office,,Parking reimbursement,,Parking reimbursement,-6.00,FY2027.pdf,297
 L2027-03110,2027,10,Eversole,travel_discretionary,payment,travel_office,,Murfreesboro Embassy Suites,TCSA Fall Conference,Murfreesboro Embassy Suites (TCSA Fall Conference),-640.20,FY2027.pdf,298
-L2027-03111,2027,10,Eversole,travel_discretionary,payment,gift,G2027-D10-004,Hunter Middle School,assist with purchase of t-shirts for students & staff,Hunter Middle School (assist with purchase of t-shirts for students & staff),-500.00,FY2027.pdf,299
+L2027-03111,2027,10,Eversole,travel_discretionary,payment,gift,G2027-D10-003,Hunter Middle School,assist with purchase of t-shirts for students & staff,Hunter Middle School (assist with purchase of t-shirts for students & staff),-500.00,FY2027.pdf,299
 L2027-03112,2027,10,Eversole,travel_discretionary,payment,community_purchase,,Wal-Mart,frames for certificates,Wal-Mart (frames for certificates),-6.72,FY2027.pdf,300
 L2027-03113,2027,10,Eversole,travel_discretionary,total_expenses,,,,,Total Expenses FY 26-27,-6985.06,FY2027.pdf,305
 L2027-03114,2027,10,Eversole,travel_discretionary,ending_balance,,,,,Ending Balance (will not roll over),10514.94,FY2027.pdf,308

@@ -4,3 +4,19 @@ apparel embroidery,community_purchase,Embroidery vendor
 andrew thompson co,travel_office,Portfolios bought from a vendor
 muscle movers,travel_office,Office move
 trophy shop,community_purchase,Trophies are bought for others
+\bxfin+i?n?ty\b,travel_office,Internet bill (county typo "Xfininty")
+\bparkmobile\b,travel_office,Parking app
+\bdos ?bros\b,travel_office,Mexican grill
+\bfireflys\b,travel_office,TCSA conference charge; the next report line reimburses it
+\btennessee county service\b,travel_office,TCSA dues (county typo)
+\bdupont circle\b,travel_office,Hotel; same report has Churchill Hotel lines for the same trip
+\bwashington churchill\b,travel_office,Churchill Hotel; listed right after NACo 2022 lines
+\bpeabody memphis\b,travel_office,Hotel
+\bgt distributors\b,travel_office,Name badge
+\btime free press\b,travel_office,Legal notice; filed with the other legal notices
+\bross glass\b,community_purchase,Window replacement at JA Patten rec center
+security system for woodmore,community_purchase,Bought for a school
+senior night out dvds,community_purchase,DVDs bought for an event
+east hamilton football,community_purchase,Team meals
+singer,community_purchase,Singer and band for a senior event
+moms program,community_purchase,Door cling for a program
