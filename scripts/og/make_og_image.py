@@ -28,7 +28,7 @@ PROPOSED_PER_SEAT = 100000
 SEGMENTS = [
     ("gift", "#3987e5", "Gifts to organizations"),
     ("travel_office", "#e0622b", "Travel and office"),
-    ("community_purchase", "#1fae7b", "Purchases for others"),
+    ("community_purchase", "#1fae7b", "Purchases for schools, staff and events"),
 ]
 
 

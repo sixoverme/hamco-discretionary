@@ -132,6 +132,9 @@ Every blank column above is something the county doesn't publish today. The dash
 - Categories for FY2017 to FY2027 were assigned by keyword from each report line. Fixes go in `scripts/category_overrides.csv`.
 - Resolution numbers come from the county's resolution archive (`data/resolutions.csv`, pulled by `scripts/fetch_resolutions.py`). Each gift is matched by district, amount, name and date. The build stops if any FY2023 or FY2024 match disagrees with Exhibit I of the 2025 audit.
 - Commissioner names appear as the reports print them, which is last names only.
+- When a seat changes hands mid-year, the report opens the new commissioner's block with what the last one left. The page counts that money once and shows it as passed to the successor. The FY2027 report does not split the year: it lists Beck / Geter (District 5), Chauncey / Wichman (District 8) and Graham / Besley (District 11) together.
+- A few report lines have a name but no amount, such as "Note Card" in FY2023. They are left out, because they carry no money.
+- Under a heading such as "2021 Legislative Conference", the report indents the registration, travel advance and hotel. Each of those lines keeps the heading.
 - All 282 fund blocks reconcile. Each one's opening money minus its spending equals the closing balance the report prints.
 - All 60 "Total Expenses" lines printed in FY2024 to FY2027 match the page's spending for that block.
 - Money committed in one year and paid the next counts in the year it was committed, matching the county. The FY2026 payment for the Hardy Elementary sign is an example.

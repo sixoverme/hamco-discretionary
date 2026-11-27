@@ -45,6 +45,9 @@ SUMMARY = [
     (re.compile(r"^\d?(Ending Balance|Remaining Budget|Balance for FY)", re.I), "ending_balance"),
 ]
 
+# The trip items the county indents under a conference heading.
+TRIP_ITEM = re.compile(r"^(Registration|Hotel|Travel Advance|Air Travel|Flight|Parking|Mileage|Meals?|Lodging|Uber|Taxi)\b", re.I)
+
 MONTH_LINE = re.compile(
     r"^(January|February|March|April|May|June|July|August|September|October|November|December)\b.*\d{4}$",
     re.I,
@@ -74,18 +77,28 @@ def split_payee(desc):
 
 def parse_file(path):
     fy = int(re.search(r"FY(\d{4})", path.name).group(1))
-    rows, unparsed = [], []
+    rows, unparsed, blank = [], [], []
     district = commissioner = fund = None
     subhead = ""
-    pending_desc = ""
     last_district_line = None
     committed = False
+    # A line with no amount waits here until the next line shows whether it heads indented lines.
+    orphan = None
+    # head: the line the following, more indented lines belong to. prev: the last payment line.
+    head = prev = None
+
+    def drop_orphan():
+        nonlocal orphan
+        if orphan:
+            blank.append((path.name, orphan[2], orphan[1]))
+        orphan = None
 
     for n, raw in enumerate(path.read_text(errors="ignore").splitlines(), 1):
         line = raw.rstrip()
         text = line.strip()
         if not text or SKIP.match(line):
             continue
+        indent = len(line) - len(line.lstrip())
 
         m = DISTRICT.match(line)
         if m:
@@ -94,7 +107,9 @@ def parse_file(path):
                 # A fresh district header may start a new commissioner's block.
                 last_district_line = n
             district = new_d
-            subhead, pending_desc = "", ""
+            subhead = ""
+            drop_orphan()
+            head = prev = None
             continue
 
         m = COMMISSIONER.match(line)
@@ -106,7 +121,9 @@ def parse_file(path):
 
         for rx, name in FUNDS:
             if rx.match(line):
-                fund, subhead, pending_desc, committed = name, "", "", False
+                fund, subhead, committed = name, "", False
+                drop_orphan()
+                head = prev = None
                 break
         else:
             name = None
@@ -115,29 +132,36 @@ def parse_file(path):
 
         m = AMOUNT_LINE.match(line) or TRAILING_AMOUNT.match(line)
         if not m:
+            drop_orphan()
+            if head is None or indent < head[0] + 2:
+                head = prev = None
             if re.match(r"^Less (Payments|Committed):?$", text, re.I):
                 committed = "committed" in text.lower()
-                subhead = ""
-                continue
-            if text.endswith(":"):
-                subhead = text.rstrip(":").strip()
+                subhead, head, prev = "", None, None
+            elif text.endswith(":"):
+                subhead, head, prev = text.rstrip(":").strip(), None, None
             else:
-                # Wrapped description; joined to the next amount line.
-                pending_desc = f"{pending_desc} {text}".strip()
+                orphan = (indent, text, n)
             continue
 
         desc = (m.group("desc") or "").strip().strip("$").strip()
         if not desc and "$" in line:
-            # A bare "$ amount" line is a running subtotal, even after a wrapped note.
-            pending_desc = ""
+            # A bare "$ amount" line is a running subtotal.
+            drop_orphan()
             continue
         tok = next(g for g in m.groups()[1:] if g)
         amount = to_amount(tok)
-        if pending_desc:
-            # A summary line never continues a wrapped description.
-            if not any(rx.match(desc) for rx, _ in SUMMARY):
-                desc = f"{pending_desc} {desc}".strip()
-            pending_desc = ""
+
+        # The county indents lines that belong to the line above them, such as a
+        # conference heading over its registration, travel advance and hotel.
+        # Sub-lines sit at least two spaces deeper; one space is layout wobble.
+        if orphan and indent >= orphan[0] + 2:
+            head, orphan = (orphan[0], orphan[1]), None
+        drop_orphan()
+        if head and indent < head[0] + 2:
+            head = None
+        if head is None and prev and indent >= prev[0] + 2 and not MONTH_LINE.match(prev[1]):
+            head = prev
 
         # A bare amount with nothing to describe is a running subtotal.
         if not desc:
@@ -151,10 +175,17 @@ def parse_file(path):
 
         if line_type == "payment" and (committed or re.search(r"\bcommitted\s*$", desc, re.I)):
             line_type = "committed"
-        if line_type == "payment" and MONTH_LINE.match(desc) and subhead:
-            desc = f"{subhead}, {desc}"
-        if line_type != "payment":
-            subhead = ""
+        own = desc
+        if line_type in ("payment", "committed") and desc.endswith(":"):
+            subhead, head, prev = desc.rstrip(":").strip(), None, None
+        elif line_type in ("payment", "committed"):
+            if MONTH_LINE.match(desc) and subhead:
+                desc = f"{subhead}, {desc}"
+            elif head and TRIP_ITEM.match(desc):
+                desc = f"{head[1]} ({desc})"
+            prev = (indent, own)
+        else:
+            subhead, head, prev = "", None, None
 
         if district is None or fund is None:
             unparsed.append((path.name, n, "no district/fund", text))
@@ -175,7 +206,7 @@ def parse_file(path):
             "source_line": n,
         })
 
-    return rows, unparsed
+    return rows, unparsed, blank
 
 
 def reconcile(rows):
@@ -220,11 +251,12 @@ def report_meta(path):
 
 
 def main(txt_dir, out_dir):
-    all_rows, all_unparsed, reports = [], [], []
+    all_rows, all_unparsed, all_blank, reports = [], [], [], []
     for path in sorted(Path(txt_dir).glob("FY20*.txt")):
-        rows, unparsed = parse_file(path)
+        rows, unparsed, blank = parse_file(path)
         all_rows += rows
         all_unparsed += unparsed
+        all_blank += blank
         reports.append(report_meta(path))
 
     with (Path(out_dir) / "reports.csv").open("w", newline="") as f:
@@ -247,6 +279,8 @@ def main(txt_dir, out_dir):
     print(f"{sum(r['line_type'] == 'payment' for r in all_rows)} payments")
     for u in all_unparsed:
         print("UNPARSED", *u, sep=" | ")
+    for b in all_blank:
+        print("NO AMOUNT (left out)", *b, sep=" | ")
     problems = reconcile(all_rows)
     print(f"{len(problems)} blocks fail reconciliation")
     for p in problems:

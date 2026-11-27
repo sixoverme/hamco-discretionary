@@ -244,15 +244,26 @@ def parse_resolutions():
     return out
 
 
+# A sentence that says what the money will do.
+PURPOSE = re.compile(r"\b(FUNDS?|MONEY|MONIES|DONATION) (WILL|WOULD|ARE TO|IS TO) (BE )?(USED|ASSIST|HELP|GO|PURCHASE|PAY|PROVIDE"
+                     r"|SUPPORT|COVER|FUND|BUY|BENEFIT|ALLOW|ENABLE)|\bTO ASSIST WITH\b")
+
+
 def stated_purpose(said):
-    """The sentences from committee discussion that say what the money is for."""
+    """Up to two sentences from committee discussion that say what the money is for, with the speaker named."""
+    # Keep abbreviations from ending a sentence early.
+    text = re.sub(r"\b(INC|CO|CORP|LTD|NO|ST|MR|MRS|MS|DR|JR|SR)\.", r"\1", said)
+    speaker = re.search(r"\b(COMMISSIONER|CHAIRMAN|CHAIRWOMAN|VICE CHAIRMAN|VICE-CHAIRMAN) ([A-Z][A-Z'’-]+) SPOKE REGARDING", text)
     keep = []
-    for s in re.split(r"(?<=\.)\s+", said):
-        if re.search(r"SPOKE REGARDING|WHICH APPROPRIATES|WHICH APPROVES|WHICH ALLOCATES|NO QUESTIONS|^DISCUSSION|RESOLUTION NO\.", s):
+    for sentence in re.split(r"(?<=\.)\s+", text):
+        sentence = sentence.strip()
+        if not PURPOSE.search(sentence) or re.search(r"RESOLUTION|SPOKE REGARDING|WHICH (APPROPRIATES|MAKES|APPROVES|ALLOCATES)", sentence):
             continue
-        if re.search(r"\b(FUNDS?|MONEY|ASSIST|HELP|PURCHASE|USED|SUPPORT|PROGRAM)\b", s):
-            keep.append(s.strip())
-    return " ".join(dict.fromkeys(keep))[:600]
+        if speaker:
+            sentence = re.sub(r"^(HE|SHE) (STATED|NOTED|EXPLAINED|SAID|ADDED|REPORTED)\b",
+                              lambda m: f"{speaker.group(1)} {speaker.group(2)} {m.group(2)}", sentence)
+        keep.append(sentence)
+    return " ".join(list(dict.fromkeys(keep))[:2])
 
 
 def fuzzy_in(name, text):
@@ -322,7 +333,8 @@ def match_resolutions(gifts, resolutions):
     def take(gid, picks, how):
         for c in picks:
             used[c["slot"]] += float(by_id[gid]["amount_approved"]) if len(picks) == 1 else cap(c)
-        found[gid] = ([c["r"] for c in picks], how)
+        found[gid] = {"rs": [c["r"] for c in picks], "how": how, "caps": [cap(c) for c in picks],
+                      "slot": picks[0]["slot"]}
 
     # 1. Exact amount.
     order = sorted(((c["rank"], gid, c) for gid, cs in cands.items() for c in cs), key=lambda x: x[0], reverse=True)
@@ -352,7 +364,7 @@ def match_resolutions(gifts, resolutions):
                 break
         for gid in best or ():
             used[slot] += float(by_id[gid]["amount_approved"])
-            found[gid] = ([c["r"]], "part of a larger approval")
+            found[gid] = {"rs": [c["r"]], "how": "part of a larger approval", "caps": [cap(c)], "slot": slot}
 
     # 3. Two resolutions for one gift.
     for gid, cs in cands.items():
@@ -468,19 +480,30 @@ def main():
         hit = found.get(g["gift_id"])
         if not hit:
             continue
-        rs, how = hit
+        rs, how, caps = hit["rs"], hit["how"], hit["caps"]
         g["resolution_no"] = "; ".join(r["res"] for r in rs)
         g["resolution_date"] = "; ".join(r["date"] for r in rs)
         g["resolution_url"] = "; ".join(r["pdf"] for r in rs)
         g["stated_purpose"] = " ".join(r["purpose"] for r in rs if r["purpose"])
         g["record_source"] += "; commission resolution"
-        approved = ", ".join(f"${a:,.2f}" for r in rs for a in sorted(r["amounts"]))
         if how == "partial":
-            g["notes"] = (g["notes"] + f" Resolution {rs[0]['res']} approved {approved}.").strip()
+            g["notes"] = (g["notes"] + f" Resolution {rs[0]['res']} approved {'up to ' if rs[0]['total'] else ''}"
+                          f"${caps[0]:,.2f}.").strip()
         elif how == "two resolutions":
-            g["notes"] = (g["notes"] + f" Paid under two resolutions, {approved}.").strip()
-        elif how == "part of a larger approval":
-            g["notes"] = (g["notes"] + f" One of several payments under resolution {rs[0]['res']}.").strip()
+            g["notes"] = (g["notes"] + f" Paid under two resolutions: {rs[0]['res']} for ${caps[0]:,.2f}"
+                          f" and {rs[1]['res']} for ${caps[1]:,.2f}.").strip()
+
+    # Payments that together use one resolution: say how many and what they add up to.
+    shared = defaultdict(list)
+    for g in gifts:
+        hit = found.get(g["gift_id"])
+        if hit and hit["how"] == "part of a larger approval":
+            shared[hit["slot"]].append(g)
+    for slot, gs in shared.items():
+        res = slot[0]
+        total = sum(float(x["amount_approved"]) for x in gs)
+        for x in gs:
+            x["notes"] = (x["notes"] + f" One of {len(gs)} payments under resolution {res}, totaling ${total:,.2f}.").strip()
 
     hand = DATA / "resolution_matches.csv"
     if hand.exists():

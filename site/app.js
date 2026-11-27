@@ -201,6 +201,7 @@
         people.set(key, {
           district: first.district, commissioner: first.commissioner, years: new Set(),
           available: 0, remaining: 0, committed: 0, gift: 0, travel_office: 0, community_purchase: 0, lines: [],
+          passedOut: 0, passedIn: 0, successor: null, predecessor: null, from: null, until: null,
         });
       }
       const p = people.get(key);
@@ -224,6 +225,41 @@
       if (endings.length) p.remaining += endings[endings.length - 1].amount;
       p.available += available;
       p.lines.push(...rows);
+    }
+
+    // When a seat changes hands mid-year, the county opens the new commissioner's block
+    // with what the last one left. That money is counted once, as passed along.
+    const seats = new Map();
+    for (const [key, rows] of blocks) {
+      const [fy, district, , fund] = key.split("|");
+      const seat = [fy, district, fund].join("|");
+      if (!seats.has(seat)) seats.set(seat, []);
+      seats.get(seat).push(rows);
+    }
+    for (const list of seats.values()) {
+      for (let i = 1; i < list.length; i++) {
+        const before = list[i - 1], after = list[i];
+        if (before[0].commissioner === after[0].commissioner) continue;
+        const out = people.get(`${before[0].district}|${before[0].commissioner}`);
+        const next = people.get(`${after[0].district}|${after[0].commissioner}`);
+        const ends = before.filter((r) => r.line_type === "ending_balance");
+        const passed = ends.length ? ends[ends.length - 1].amount : 0;
+        out.passedOut += passed;
+        out.successor = next.commissioner;
+        next.passedIn += passed;
+        next.predecessor = out.commissioner;
+        // The new block's opening date is the handover; a July 1 date there is the county's carry-over.
+        const begin = after.find((r) => r.line_type === "beginning_balance");
+        const m = begin && /(\d\d)\/(\d\d)\/(\d{4})/.exec(begin.description);
+        if (m && !(m[1] === "07" && m[2] === "01")) {
+          const start = new Date(+m[3], +m[1] - 1, +m[2]);
+          if (!next.from || start > next.from) next.from = start;
+        }
+      }
+    }
+    for (const p of people.values()) {
+      const next = p.successor && people.get(`${p.district}|${p.successor}`);
+      if (next && next.from) p.until = new Date(next.from.getTime() - 86400000);
     }
 
     return [...people.values()].sort((a, b) => a.district - b.district || a.commissioner.localeCompare(b.commissioner));
@@ -261,7 +297,7 @@
     const people = commissionerRows();
     const total = (k) => people.reduce((a, p) => a + p[k], 0);
     const spent = total("gift") + total("travel_office") + total("community_purchase") + total("committed");
-    const available = total("available");
+    const available = total("available") - total("passedIn");
 
     const gifts = DB.gifts.filter((g) => inScope(g) && g.outcome !== "voided");
     const giftDollars = gifts.reduce((a, g) => a + paidFor(g).total, 0);
@@ -294,11 +330,17 @@
         el("div", { class: "sub" }, t.sub))));
   }
 
+  // Money left in an account when the seat changed hands mid-year.
+  const PASSED_STYLE = "opacity:.4";
+
   function legendItems(includeExtras, people) {
     const items = CATEGORIES.map((c) => el("li", {}, el("span", { class: `swatch ${c.swatch}` }), c.label));
     if (includeExtras) {
       if (people.some((p) => p.committed > 0.5)) {
         items.push(el("li", {}, el("span", { class: "swatch s-gift", style: "opacity:.4" }), COMMITTED_LABEL));
+      }
+      if (state.year && people.some((p) => p.passedOut > 0.5)) {
+        items.push(el("li", {}, el("span", { class: "swatch s-remaining", style: PASSED_STYLE }), "Passed to the next commissioner"));
       }
       if (state.year) items.push(el("li", {}, el("span", { class: "swatch s-remaining" }), "Unspent"));
     }
@@ -326,7 +368,9 @@
       const parts = [
         ...CATEGORIES.map((c) => ({ label: c.label, value: p[c.key], cls: c.swatch, style: "" })),
         { label: COMMITTED_LABEL, value: p.committed, cls: "s-gift", style: "opacity:.4" },
-        ...(allYears ? [] : [{ label: "Unspent", value: Math.max(0, p.remaining), cls: "s-remaining", style: "" }]),
+        ...(allYears ? [] : [
+          { label: `Passed to ${p.successor}`, value: p.passedOut, cls: "s-remaining", style: PASSED_STYLE },
+          { label: "Unspent", value: Math.max(0, p.remaining - p.passedOut), cls: "s-remaining", style: "" }]),
       ].filter((x) => x.value > 0.5);
       const width = ((allYears ? spent : Math.max(p.available, spent)) / max) * 100;
       const who = `District ${p.district}, Commissioner ${p.commissioner}`;
@@ -336,7 +380,9 @@
         el("td", { class: "c-dist" }, p.district),
         el("td", { class: "c-name" },
           el("button", { type: "button", class: "expand", "aria-haspopup": "dialog", onclick: open }, p.commissioner),
-          allYears ? el("div", { class: "muted small" }, yearSpan(p.years)) : null),
+          allYears ? el("div", { class: "muted small" }, yearSpan(p.years))
+            : p.until ? el("div", { class: "muted small" }, `To ${fmtDate(p.until)}`)
+            : p.from ? el("div", { class: "muted small" }, `From ${fmtDate(p.from)}`) : null),
         allYears ? null : el("td", { class: "num c-avail" }, dollars.format(p.available)),
         el("td", { class: "num c-spent" }, dollars.format(spent)),
         el("td", { class: "bar-cell c-bar" },
@@ -350,7 +396,8 @@
               onfocus: (e) => showTip(e, who, [{ name: x.label, value: x.value, cls: x.cls, style: x.style }]),
               onblur: hideTip,
             })))),
-        allYears ? null : el("td", { class: "num c-left" }, dollars.format(p.remaining)));
+        allYears ? null : el("td", { class: "num c-left" }, dollars.format(p.remaining - p.passedOut),
+          p.passedOut > 0.5 ? el("div", { class: "muted small" }, `${dollars.format(p.passedOut)} to ${p.successor}`) : null));
     }));
 
     document.getElementById("commissioners").replaceChildren(head, body);
@@ -406,11 +453,10 @@
         syncURL();
         renderGifts();
       };
-      const resNo = g.resolution_url
-        ? el("a", { href: g.resolution_url, target: "_blank", rel: "noopener", onclick: (e) => e.stopPropagation() }, g.resolution_no)
-        : g.resolution_no;
+      const dates = (g.resolution_date || "").split("; ").filter(Boolean);
       const res = g.resolution_no
-        ? el("span", {}, resNo, g.resolution_date ? el("div", { class: "muted small" }, fmtDate(parseDate(g.resolution_date))) : null)
+        ? el("span", {}, resolutionLinks(g),
+          el("div", { class: "muted small" }, dates.length > 1 ? `${dates.length} resolutions` : dates.length ? fmtDate(parseDate(dates[0])) : ""))
         : el("span", { class: "muted small" }, "No match found");
 
       rows.push(el("tr", { class: "row", "aria-expanded": String(open), onclick: (e) => { if (!e.target.closest("button")) toggle(); } },
@@ -449,6 +495,14 @@
     return [el("dt", {}, label), el("dd", {}, content)];
   }
 
+  // One link per resolution; a few gifts were paid under two.
+  function resolutionLinks(g) {
+    const urls = (g.resolution_url || "").split("; ");
+    return g.resolution_no.split("; ").map((n, i) => [i ? ", " : "", urls[i]
+      ? el("a", { href: urls[i], target: "_blank", rel: "noopener", onclick: (e) => e.stopPropagation() }, n)
+      : n]);
+  }
+
   function giftRecord(g) {
     const { lines, total } = paidFor(g);
     const report = (fy) => DB.reports.find((r) => r.fiscal_year === fy);
@@ -476,12 +530,10 @@
             field("In the district", g.recipient_in_district),
             field("Project", g.project),
             field("Amount approved", g.amount_approved ? cents.format(g.amount_approved) : ""),
-            g.resolution_url
-              ? [el("dt", {}, "Resolution"), el("dd", {}, el("a", { href: g.resolution_url, target: "_blank", rel: "noopener" }, g.resolution_no))]
-              : g.resolution_no
-                ? field("Resolution", g.resolution_no)
-                : [el("dt", {}, "Resolution"), el("dd", {}, el("span", { class: "missing" }, "No match found in the county's resolution archive"))],
-            field("Approved on", date(g.resolution_date)),
+            [el("dt", {}, "Resolution"), el("dd", {}, g.resolution_no
+              ? resolutionLinks(g)
+              : el("span", { class: "missing" }, "No match found in the county's resolution archive"))],
+            field("Approved on", (g.resolution_date || "").split("; ").filter(Boolean).map(date).join("; ")),
             g.stated_purpose
               ? [el("dt", {}, "Said in committee"), el("dd", { class: "minutes" }, g.stated_purpose.toLowerCase())]
               : null,
@@ -659,7 +711,18 @@
     // Summary figures
     const stats = allYears
       ? [["Spent", spent], ["Gifts", person.gift + person.committed], ["Travel and office", person.travel_office]]
-      : [["Available", person.available], ["Spent", spent], ["Left", person.remaining]];
+      : [["Available", person.available], ["Spent", spent],
+        ...(person.passedOut > 0.5 ? [[`Passed to ${person.successor}`, person.passedOut]] : []),
+        ["Left", person.remaining - person.passedOut]];
+
+    const seatNote = allYears ? null
+      : person.passedOut > 0.5
+        ? `${person.until ? `Served to ${fmtDate(person.until)}. ` : ""}The ${dollars.format(person.passedOut)} left in the account passed to Commissioner ${person.successor}.`
+      : person.passedIn > 0.5
+        ? `${person.from ? `Took the seat ${fmtDate(person.from)}` : "Started"} with ${dollars.format(person.passedIn)} left by Commissioner ${person.predecessor}.`
+      : person.commissioner.includes(" / ")
+        ? "The county's report lists both commissioners together for this year and does not split their spending."
+      : null;
 
     // Spending lines by category, in report order or largest first
     const spendTypes = ["payment", "committed"];
@@ -713,6 +776,7 @@
           el("h2", { id: "detail-title" }, `Commissioner ${person.commissioner}`)),
         el("button", { type: "button", class: "close", "aria-label": "Close", onclick: closeDetail }, "×")),
       el("div", { class: "detail-body" },
+        seatNote ? el("p", { class: "note small" }, seatNote) : null,
         el("div", { class: "mini-tiles" }, stats.map(([label, v]) =>
           el("div", { class: "tile" }, el("div", { class: "label" }, label), el("div", { class: "value" }, dollars.format(v))))),
 
@@ -857,7 +921,8 @@
 
     const latest = reports[0];
     document.getElementById("lede").textContent =
-      `How much each county commissioner has to spend at their discretion, where it went, and whether each gift did what it was given for. ` +
+      `How much each county commissioner has to spend at their discretion, where it went, and the commission resolutions that approved the gifts. ` +
+      `Each gift has a place to show whether it did what it was given for, once the county records it. ` +
       `Reports run from FY${reports[reports.length - 1].fiscal_year} through FY${latest.fiscal_year}, updated ${latest.as_of}.`;
 
     const yearSel = document.getElementById("f-year");
